@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cac6101283eaea10216cf7a6feaad358" label="Agent Property Details" max_length="40" name="x_1777187_rental_0_agent_property_details" type="collection">
+        <element label="How many rooms are there?" mandatory="true" max_length="40" name="how_many_rooms_are_there" type="integer"/>
+        <element label="Management Company Contract Expiration" max_length="40" name="management_company_contract_expiration" type="glide_date"/>
+        <element label="Deposit Amount" max_length="40" name="deposit_amount" type="integer"/>
+        <element label="Current Management Company" max_length="255" name="current_management_company" type="string"/>
+        <element label="Insect/Pest Control" max_length="40" name="insect_pest_control" type="boolean"/>
+        <element label="Trash Day" max_length="40" name="trash_day" type="boolean"/>
+        <element label="Tenant Mobile Number" max_length="40" name="tenant_mobile_number" type="phone_number_e164"/>
+        <element label="Dryer" mandatory="true" max_length="40" name="dryer" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Agent Name" max_length="32" name="agent_name" reference="sys_user" type="reference"/>
+        <element choice="3" default="in_draft" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
+                <element inactive_on_update="false" label="Send Back" sequence="5" value="send_back"/>
+                <element inactive_on_update="false" label="Completed" sequence="4" value="completed"/>
+                <element inactive_on_update="false" label="Under Inspection" sequence="1" value="under_inspection"/>
+                <element inactive_on_update="false" label="Re submitted" sequence="6" value="re_submitted"/>
+                <element inactive_on_update="false" label="In Draft" sequence="0" value="in_draft"/>
+                <element inactive_on_update="false" label="Pending Approval" sequence="2" value="pending_approval"/>
+            </choice>
+        </element>
+        <element label="Currently Occupied" mandatory="true" max_length="40" name="currently_occupied" type="boolean"/>
+        <element label="Home Address" mandatory="true" max_length="500" name="home_address" type="string"/>
+        <element label="Tenant Name" max_length="255" name="tenant_name" type="string"/>
+        <element label="Sprinklers" max_length="40" name="sprinklers" type="boolean"/>
+        <element label="How many rooms are en suite?" mandatory="true" max_length="40" name="how_many_rooms_are_en_suite" type="integer"/>
+        <element label="Others - Outside Features" max_length="500" name="others_outside_features" type="string"/>
+        <element label="Inspection Details" max_length="32" name="inspection_details" reference="x_1777187_rental_0_inspection_details" type="reference"/>
+        <element label="Others Complex Amenities" max_length="500" name="others_complex_amenities" type="string"/>
+        <element label="Length of Tenancy" max_length="50" name="length_of_tenancy" type="string"/>
+        <element label="Trash Compactor" mandatory="true" max_length="40" name="trash_compactor" type="boolean"/>
+        <element label="Washer" max_length="40" name="washer" type="boolean"/>
+        <element active="false" label="Name" mandatory="true" max_length="32" name="name" reference="sys_user" type="reference"/>
+        <element label="Stove: Gas Electric" mandatory="true" max_length="40" name="stove_gas_electric" type="boolean"/>
+        <element label="Are All Tenants on the Lease" max_length="40" name="are_all_tenants_on_the_lease" type="boolean"/>
+        <element label="Oven: Gas Electric" mandatory="true" max_length="40" name="oven_gas_electric" type="boolean"/>
+        <element label="Volley Ball Court" mandatory="true" max_length="40" name="volley_ball_court" type="boolean"/>
+        <element label="Tennis Court" mandatory="true" max_length="40" name="tennis_court" type="boolean"/>
+        <element label="Exercise Room" mandatory="true" max_length="40" name="exercise_room" type="boolean"/>
+        <element label="Rec Room" mandatory="true" max_length="40" name="rec_room" type="boolean"/>
+        <element label="Property Address" mandatory="true" max_length="500" name="property_address" type="string"/>
+        <element label="Laundry" mandatory="true" max_length="40" name="laundry" type="boolean"/>
+        <element label="Others - Appliances" max_length="500" name="others_appliances" type="string"/>
+        <element label="Rent Amount" max_length="40" name="rent_amount" type="integer"/>
+        <element label="Microwave" mandatory="true" max_length="40" name="microwave" type="boolean"/>
+        <element label="How many washrooms are there?" mandatory="true" max_length="40" name="how_many_washrooms_are_there" type="integer"/>
+        <element label="Gardener" max_length="40" name="gardener" type="boolean"/>
+        <element label="Mobile Number" mandatory="true" max_length="255" name="agent_mobile_number" type="phone_number_e164"/>
+        <element label="Parking" mandatory="true" max_length="255" name="parking" type="boolean"/>
+        <element label="Dishwasher" mandatory="true" max_length="40" name="dishwasher" type="boolean"/>
+        <element label="Length of Lease" max_length="50" name="length_of_lease" type="string"/>
+        <element label="Moving Out" max_length="40" name="moving_out" type="boolean"/>
+        <element label="Last repairs" mandatory="true" max_length="40" name="last_repairs" type="glide_date"/>
+        <element label="Alarm" mandatory="true" max_length="40" name="alarm" type="boolean"/>
+        <element label="When" max_length="40" name="when" type="glide_date"/>
+        <element label="A/C" mandatory="true" max_length="40" name="ac" type="boolean"/>
+        <element label="Email" mandatory="true" max_length="255" name="email" type="string"/>
+        <element label="Last time property professionally inspected" mandatory="true" max_length="40" name="last_time_property_professionally_inspected" type="glide_date"/>
+        <element label="Gated" max_length="40" name="gated" type="boolean"/>
+        <element label="Club House" mandatory="true" max_length="40" name="club_house" type="boolean"/>
+        <element label="Pool" max_length="40" name="pool" type="boolean"/>
+        <element label="Steam Room" mandatory="true" max_length="40" name="steam_room" type="boolean"/>
+        <element label="Playground" mandatory="true" max_length="40" name="playground" type="boolean"/>
+        <element label="Spa" mandatory="true" max_length="40" name="spa" type="boolean"/>
+        <index name="index">
+            <element name="agent_name"/>
+        </index>
+        <index name="index2">
+            <element name="inspection_details"/>
+        </index>
+        <index name="index3">
+            <element name="name"/>
+        </index>
+    </element>
+</database>

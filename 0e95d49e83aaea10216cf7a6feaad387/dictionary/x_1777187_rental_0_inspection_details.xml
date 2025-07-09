@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4907d41283eaea10216cf7a6feaad31b" label="Inspection Details" max_length="40" name="x_1777187_rental_0_inspection_details" type="collection">
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="All lights are fully functional" mandatory="true" max_length="40" name="all_lights_are_fully_functional" type="boolean"/>
+        <element choice="3" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
+                <element inactive_on_update="false" label="Re Submitted" sequence="6" value="re_submitted"/>
+                <element inactive_on_update="false" label="In Draft" sequence="0" value="in_draft"/>
+                <element inactive_on_update="false" label="Completed" sequence="4" value="completed"/>
+                <element inactive_on_update="false" label="Under Inspection" sequence="1" value="under_inspection"/>
+                <element inactive_on_update="false" label="Pending Approval" sequence="2" value="pending_approval"/>
+                <element inactive_on_update="false" label="Send Back" sequence="5" value="send_back"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element label="short Description" max_length="500" name="short_description" type="string"/>
+        <element label="Have not eroded the landscape" mandatory="true" max_length="40" name="have_not_eroded_the_landscape" type="boolean"/>
+        <element label="Toilets and sinks work properly" mandatory="true" max_length="40" name="toilets_and_sinks_work_properly" type="boolean"/>
+        <element label="Doors in good condition and latch" mandatory="true" max_length="40" name="doors_in_good_condition_and_latch" type="boolean"/>
+        <element label="No signs of improper wiring" mandatory="true" max_length="40" name="no_signs_of_improper_wiring" type="boolean"/>
+        <element label="Evidence of excess roofing cement" mandatory="true" max_length="40" name="evidence_of_excess_roofing_cement" type="boolean"/>
+        <element label="Fireplace &amp; chimney are functional" mandatory="true" max_length="40" name="fireplace_chimney_are_functional" type="boolean"/>
+        <element label="Windows in good condition and latch" mandatory="true" max_length="40" name="windows_in_good_condition_and_latch" type="boolean"/>
+        <element label="No strange smell or noise" mandatory="true" max_length="40" name="no_strange_smell_or_noise" type="boolean"/>
+        <element label="Property Details" max_length="32" name="agent_details" reference="x_1777187_rental_0_agent_property_details" type="reference"/>
+        <element label="Stairs, steps, and railings - good condition" mandatory="true" max_length="40" name="stairs_steps_and_railings_good_condition" type="boolean"/>
+        <element label="Pipes have no signs of leaks" mandatory="true" max_length="40" name="pipes_have_no_signs_of_leaks" type="boolean"/>
+        <element label="Paint in good condition on all locations" mandatory="true" max_length="40" name="paint_in_good_condition_on_all_locations" type="boolean"/>
+        <element label="Water flow on all taps in good condition" mandatory="true" max_length="40" name="water_flow_on_all_taps_in_good_condition" type="boolean"/>
+        <element label="No evidence of past leans or mold" mandatory="true" max_length="40" name="no_evidence_of_past_leans_or_mold" type="boolean"/>
+        <element label="Proper drainage from the house" mandatory="true" max_length="40" name="proper_drainage_from_the_house" type="boolean"/>
+        <element label="Gutters free from decay and rust" mandatory="true" max_length="40" name="gutters_free_from_decay_and_rust" type="boolean"/>
+        <element label="No sign of mice or other rodents" mandatory="true" max_length="40" name="no_sign_of_mice_or_other_rodents" type="boolean"/>
+        <element label="Bathroom &amp; kitchen tiles in good condition" mandatory="true" max_length="40" name="bathroom_kitchen_tiles_in_good_condition" type="boolean"/>
+        <element label="No evidence of decay or big damage" mandatory="true" max_length="40" name="no_evidence_of_decay_or_big_damage" type="boolean"/>
+        <element label="Water heater works properly" mandatory="true" max_length="40" name="water_heater_works_properly" type="boolean"/>
+        <element label="All heating sources operational" mandatory="true" max_length="40" name="all_heating_sources_operational" type="boolean"/>
+        <element label="All appliances in good condition" mandatory="true" max_length="40" name="all_appliances_in_good_condition" type="boolean"/>
+        <element label="No evidence of decay or big damage" mandatory="true" max_length="40" name="no_evidence_of_decay_or_big_damag0" type="boolean"/>
+        <element label="Cracks" mandatory="true" max_length="40" name="cracks" type="boolean"/>
+        <element label="No leaks around tubs/showers" mandatory="true" max_length="40" name="no_leaks_around_tubs_showers" type="boolean"/>
+        <element label="No signs of wood-destroying pests" mandatory="true" max_length="40" name="no_signs_of_wood_destroying_pests" type="boolean"/>
+        <element label="No stains or signs of leak" mandatory="true" max_length="40" name="no_stains_or_signs_of_leak" type="boolean"/>
+        <element label="Foundation appears straight" mandatory="true" max_length="40" name="foundation_appears_straight" type="boolean"/>
+        <element label="Light switches, panels &amp; outlets" mandatory="true" max_length="40" name="light_switches_panels_outlets" type="boolean"/>
+        <index name="index">
+            <element name="agent_details"/>
+        </index>
+        <index name="index2">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index3">
+            <element name="assignment_group"/>
+        </index>
+    </element>
+</database>
