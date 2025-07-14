@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_1777187_rental_0_inspection_details">assigned_toISNOTEMPTY^EQ<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+	g_form.setMandatory('cracks', false);
+    g_form.setMandatory('foundation_appears_straight', false);
+    g_form.setMandatory('evidence_of_excess_roofing_cement', false);
+    g_form.setMandatory('gutters_free_from_decay_and_rust', false);
+    g_form.setMandatory('light_switches_panels_outlets', false);
+    g_form.setMandatory('doors_in_good_condition_and_latch', false);
+    g_form.setMandatory('windows_in_good_condition_and_latch ', false);
+    g_form.setMandatory('stairs_steps_and_railings_good_condition', false);
+    g_form.setMandatory('paint_in_good_condition_on_all_locations', false);
+    g_form.setMandatory('toilets_and_sinks_work_properl0', false);
+    g_form.setMandatory('all_heating_sources_operational', false);
+    g_form.setMandatory('no_leaks_around_tubs_showers', false);
+	g_form.setMandatory('no_strange_smell_or_noise',false);
+	g_form.setMandatory('no_sign_of_mice_or_other_rodents',false);
+	g_form.setMandatory('all_appliances_in_good_condition',false);
+	g_form.setMandatory('water_flow_on_all_taps_in_good_condition',false);
+	g_form.setMandatory('no_evidence_of_past_leans_or_mold',false);
+	g_form.setMandatory('bathroom_kitchen_tiles_in_good_codition',false);
+	g_form.setMandatory('fireplace_chimney_are_functional',false);
+	g_form.setMandatory('pipes_have_no_signs_of_leaks',false);
+	g_form.setMandatory('water_heater_works_properly',false);
+	g_form.setMandatory('no_signs_of_improper_wiring',false);
+	g_form.setMandatory('all_lights_are_fully_functional', false);
+	g_form.setMandatory('proper_drainage_from_the_house', false);
+	g_form.setMandatory('no_evidence_of_decay_or_big_damage', false);
+	g_form.setMandatory('have_not_eroded_the_landscape', false);
+	g_form.setMandatory('no_stains_or_signs_of_leak', false);
+	g_form.setMandatory('no_evidence_of_decay_or_big_damag0', false);
+	g_form.setMandatory('no_signs_of_wood_destroying_pests', false);
+
+	g_form.setSectionDisplay('foundation', false);
+	g_form.setSectionDisplay('roof', false);
+	g_form.setSectionDisplay('interior', false);
+	g_form.setSectionDisplay('plumbing', false);
+	g_form.setSectionDisplay('electrical', false);
+	g_form.setSectionDisplay('exterior', false);
+	g_form.setSectionDisplay('attic', false);
+	
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+    g_form.setMandatory('cracks', true);
+    g_form.setMandatory('foundation_appears_straight', true);
+    g_form.setMandatory('evidence_of_excess_roofing_cement', true);
+    g_form.setMandatory('gutters_free_from_decay_and_rust', true);
+    g_form.setMandatory('light_switches_panels_outlets', true);
+    g_form.setMandatory('doors_in_good_condition_and_latch', true);
+    g_form.setMandatory('windows_in_good_condition_and_latch ', true);
+    g_form.setMandatory('stairs_steps_and_railings_good_condition', true);
+    g_form.setMandatory('paint_in_good_condition_on_all_locations', true);
+    g_form.setMandatory('toilets_and_sinks_work_properl0', true);
+    g_form.setMandatory('all_heating_sources_operational', true);
+    g_form.setMandatory('no_leaks_around_tubs_showers', true);
+	g_form.setMandatory('no_strange_smell_or_noise',true);
+	g_form.setMandatory('no_sign_of_mice_or_other_rodents',true);
+	g_form.setMandatory('all_appliances_in_good_condition',true);
+	g_form.setMandatory('water_flow_on_all_taps_in_good_condition',true);
+	g_form.setMandatory('no_evidence_of_past_leans_or_mold',true);
+	g_form.setMandatory('bathroom_kitchen_tiles_in_good_codition',true);
+	g_form.setMandatory('fireplace_chimney_are_functional',true);
+	g_form.setMandatory('pipes_have_no_signs_of_leaks',true);
+	g_form.setMandatory('water_heater_works_properly',true);
+	g_form.setMandatory('no_signs_of_improper_wiring',true);
+	g_form.setMandatory('all_lights_are_fully_functional', true);
+	g_form.setMandatory('proper_drainage_from_the_house', true);
+	g_form.setMandatory('no_evidence_of_decay_or_big_damage', true);
+	g_form.setMandatory('have_not_eroded_the_landscape', true);
+	g_form.setMandatory('no_stains_or_signs_of_leak', true);
+	g_form.setMandatory('no_evidence_of_decay_or_big_damag0', true);
+	g_form.setMandatory('no_signs_of_wood_destroying_pests', true);
+	
+
+	g_form.setSectionDisplay('foundation', true);
+	g_form.setSectionDisplay('roof', true);
+	g_form.setSectionDisplay('interior', true);
+	g_form.setSectionDisplay('plumbing', true);
+	g_form.setSectionDisplay('electrical', true);
+	g_form.setSectionDisplay('exterior', true);
+	g_form.setSectionDisplay('attic', true);
+
+
+
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Make field mandatory when the assigned to is not empty</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-13 10:34:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>043e5c5083f2a650216cf7a6feaad32e</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Make field mandatory when the assigned to is not empty</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope>
+        <sys_update_name>sys_ui_policy_043e5c5083f2a650216cf7a6feaad32e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-13 11:27:33</sys_updated_on>
+        <table>x_1777187_rental_0_inspection_details</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

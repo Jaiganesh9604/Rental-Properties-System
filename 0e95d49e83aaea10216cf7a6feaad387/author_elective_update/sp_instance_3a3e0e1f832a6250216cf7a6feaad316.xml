@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="3">f23e0e1f832a6250216cf7a6feaad311</sp_column>
+        <sp_widget display_value="Approvals">f37aa302cb70020000f8d856634c9cfc</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 16:08:37</sys_created_on>
+        <sys_id>3a3e0e1f832a6250216cf7a6feaad316</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>My Approvals</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope>
+        <sys_update_name>sp_instance_3a3e0e1f832a6250216cf7a6feaad316</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 16:57:34</sys_updated_on>
+        <title>My Approvals</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"portal": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=3a3e0e1f832a6250216cf7a6feaad316"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</application>
+        <file_path/>
+        <instance_id>b0f3844eeb702e5056eafddacad0cd6a</instance_id>
+        <instance_name>dev324208</instance_name>
+        <name>sp_instance_3a3e0e1f832a6250216cf7a6feaad316</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="3"&gt;f23e0e1f832a6250216cf7a6feaad311&lt;/sp_column&gt;&lt;sp_widget display_value="Approvals"&gt;f37aa302cb70020000f8d856634c9cfc&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-07-10 16:08:37&lt;/sys_created_on&gt;&lt;sys_id&gt;3a3e0e1f832a6250216cf7a6feaad316&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;My Approvals&lt;/sys_name&gt;&lt;sys_package display_value="Rental Properties System" source="x_1777187_rental_0"&gt;0e95d49e83aaea10216cf7a6feaad387&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Rental Properties System"&gt;0e95d49e83aaea10216cf7a6feaad387&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_3a3e0e1f832a6250216cf7a6feaad316&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-07-10 16:57:34&lt;/sys_updated_on&gt;&lt;title&gt;My Approvals&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"portal": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=3a3e0e1f832a6250216cf7a6feaad316"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1180302723</payload_hash>
+        <record_name>My Approvals</record_name>
+        <reverted_from/>
+        <source>e139d0cf836aee10216cf7a6feaad362</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 16:57:34</sys_created_on>
+        <sys_id>6b69dadb836a6250216cf7a6feaad339</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197f54560fd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 16:57:34</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>ef69dadb176a6250ddf5777f0cabcf38</update_guid>
+        <update_guid_history>ef69dadb176a6250ddf5777f0cabcf38:-1180302723,1f28129bd36a6250e66818d6179289ae:234212222,323e0e1f192a6250b49b7a22c772c118:-1180302723</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My Approvals">8e79d6db836a6250216cf7a6feaad3ae</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 16:57:43</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>1244ed488d8b41d6989e1e4deb2c6ac4</sys_id>
+        <sys_metadata>3a3e0e1f832a6250216cf7a6feaad316</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Approvals</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope>
+        <sys_scope_delete display_value="">577d4c8a5c474208bff2e399f7211544</sys_scope_delete>
+        <sys_update_name>sp_instance_3a3e0e1f832a6250216cf7a6feaad316</sys_update_name>
+        <sys_update_version display_value="sp_instance_3a3e0e1f832a6250216cf7a6feaad316">6b69dadb836a6250216cf7a6feaad339</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 16:57:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

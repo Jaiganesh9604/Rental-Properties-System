@@ -4,13 +4,13 @@
             <element>proper_drainage_from_the_house</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-07 09:02:18</sys_created_on>
-            <sys_id>e8ef895e83eeea10216cf7a6feaad301</sys_id>
+            <sys_created_on>2025-07-11 10:17:32</sys_created_on>
+            <sys_id>21770ae7836ea250216cf7a6feaad301</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Exterior" display_value="Exterior" name="x_1777187_rental_0_inspection_details" sys_domain="global" view="Default view">58ef495e83eeea10216cf7a6feaad358</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-07 09:02:18</sys_updated_on>
+            <sys_updated_on>2025-07-11 10:17:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>have_not_eroded_the_landscape</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-07 09:02:18</sys_created_on>
-            <sys_id>e0ef895e83eeea10216cf7a6feaad302</sys_id>
+            <sys_created_on>2025-07-11 10:17:32</sys_created_on>
+            <sys_id>29770ae7836ea250216cf7a6feaad301</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Exterior" display_value="Exterior" name="x_1777187_rental_0_inspection_details" sys_domain="global" view="Default view">58ef495e83eeea10216cf7a6feaad358</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-07 09:02:18</sys_updated_on>
+            <sys_updated_on>2025-07-11 10:17:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-07 09:02:18</sys_created_on>
-            <sys_id>e8ef895e83eeea10216cf7a6feaad302</sys_id>
+            <sys_created_on>2025-07-11 10:17:32</sys_created_on>
+            <sys_id>21770ae7836ea250216cf7a6feaad302</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Exterior" display_value="Exterior" name="x_1777187_rental_0_inspection_details" sys_domain="global" view="Default view">58ef495e83eeea10216cf7a6feaad358</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-07 09:02:18</sys_updated_on>
+            <sys_updated_on>2025-07-11 10:17:32</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>no_evidence_of_decay_or_big_damage</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-07 09:02:18</sys_created_on>
-            <sys_id>e0ef895e83eeea10216cf7a6feaad303</sys_id>
+            <sys_created_on>2025-07-11 10:17:32</sys_created_on>
+            <sys_id>29770ae7836ea250216cf7a6feaad302</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Exterior" display_value="Exterior" name="x_1777187_rental_0_inspection_details" sys_domain="global" view="Default view">58ef495e83eeea10216cf7a6feaad358</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-07 09:02:18</sys_updated_on>
+            <sys_updated_on>2025-07-11 10:17:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

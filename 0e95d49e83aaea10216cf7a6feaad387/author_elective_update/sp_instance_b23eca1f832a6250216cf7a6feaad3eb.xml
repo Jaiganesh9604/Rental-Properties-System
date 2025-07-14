@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>tasks</glyph>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">e63eca1f832a6250216cf7a6feaad3e5</sp_column>
+        <sp_widget display_value="KB News">ad2326a45b110200e23dc7ad31f91a1e</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 16:08:37</sys_created_on>
+        <sys_id>b23eca1f832a6250216cf7a6feaad3eb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>News</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope>
+        <sys_update_name>sp_instance_b23eca1f832a6250216cf7a6feaad3eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 16:58:33</sys_updated_on>
+        <title>News</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=b23eca1f832a6250216cf7a6feaad3eb"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</application>
+        <file_path/>
+        <instance_id>b0f3844eeb702e5056eafddacad0cd6a</instance_id>
+        <instance_name>dev324208</instance_name>
+        <name>sp_instance_b23eca1f832a6250216cf7a6feaad3eb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph>tasks</glyph><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">e63eca1f832a6250216cf7a6feaad3e5</sp_column><sp_widget display_value="KB News">ad2326a45b110200e23dc7ad31f91a1e</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-10 16:08:37</sys_created_on><sys_id>b23eca1f832a6250216cf7a6feaad3eb</sys_id><sys_mod_count>2</sys_mod_count><sys_name>News</sys_name><sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package><sys_policy/><sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope><sys_update_name>sp_instance_b23eca1f832a6250216cf7a6feaad3eb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-10 16:58:33</sys_updated_on><title>News</title><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=b23eca1f832a6250216cf7a6feaad3eb"/></record_update>]]></payload>
+        <payload_hash>-2020097069</payload_hash>
+        <record_name>News</record_name>
+        <reverted_from/>
+        <source>e139d0cf836aee10216cf7a6feaad362</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 16:58:33</sys_created_on>
+        <sys_id>0ea9121f836a6250216cf7a6feaad3ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197f54647e30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 16:58:33</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>82a9121ff36a62504e764d15ff6acaae</update_guid>
+        <update_guid_history>82a9121ff36a62504e764d15ff6acaae:-2020097069,9b28129bfb6a6250759c75950ab88a7d:747666132,ba3eca1f2c2a62509a84f941b8aff6ec:-2020097069</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="News">2aa9121f836a6250216cf7a6feaad3c2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 16:58:34</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>315013620f76453e8de0c558b53e89a9</sys_id>
+        <sys_metadata>b23eca1f832a6250216cf7a6feaad3eb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>News</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope>
+        <sys_scope_delete display_value="">577d4c8a5c474208bff2e399f7211544</sys_scope_delete>
+        <sys_update_name>sp_instance_b23eca1f832a6250216cf7a6feaad3eb</sys_update_name>
+        <sys_update_version display_value="sp_instance_b23eca1f832a6250216cf7a6feaad3eb">0ea9121f836a6250216cf7a6feaad3ae</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 16:58:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -35,10 +35,11 @@
 	gr.agent_details=current.sys_id;
 	gr.assignment_group='4ee9d7228322ae10216cf7a6feaad3c1';
 	gr.short_description='inspection for property number: '+ current.number;
-	gr.state='in_draft';
+	gr.state='under_inspection';
 	gr.insert();
 
 	current.inspection_details=gr.sys_id;
+	current.state='under_inspection';
 	current.update();
 	
 
@@ -49,7 +50,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8a1cf67683a2ee10216cf7a6feaad379</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Creating a empty Record in Inspection</sys_name>
         <sys_overrides/>
         <sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package>
@@ -57,7 +58,7 @@
         <sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope>
         <sys_update_name>sys_script_8a1cf67683a2ee10216cf7a6feaad379</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 11:31:17</sys_updated_on>
+        <sys_updated_on>2025-07-10 07:17:47</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list">
+    <sys_ux_applicability_m2m_list action="DELETE">
+        <active>true</active>
+        <applicability display_value="Audience for app rental-properties-system">b3d59d1383266250216cf7a6feaad3fd</applicability>
+        <list display_value="Send Back Approvals">ebe421e783aaa250216cf7a6feaad3e1</list>
+        <order>0</order>
+        <sys_class_name>sys_ux_applicability_m2m_list</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-11 07:46:39</sys_created_on>
+        <sys_id>afe4ad2b83aaa250216cf7a6feaad39a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_list_afe4ad2b83aaa250216cf7a6feaad39a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-11 07:46:39</sys_updated_on>
+    </sys_ux_applicability_m2m_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</application>
+        <file_path/>
+        <instance_id>b0f3844eeb702e5056eafddacad0cd6a</instance_id>
+        <instance_name>dev324208</instance_name>
+        <name>sys_ux_applicability_m2m_list_afe4ad2b83aaa250216cf7a6feaad39a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list"><sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE"><active>true</active><applicability display_value="Audience for app rental-properties-system">b3d59d1383266250216cf7a6feaad3fd</applicability><list display_value="Send Back Approvals">ebe421e783aaa250216cf7a6feaad3e1</list><order>0</order><sys_class_name>sys_ux_applicability_m2m_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-11 07:46:39</sys_created_on><sys_id>afe4ad2b83aaa250216cf7a6feaad39a</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package><sys_policy/><sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope><sys_update_name>sys_ux_applicability_m2m_list_afe4ad2b83aaa250216cf7a6feaad39a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-11 07:46:39</sys_updated_on></sys_ux_applicability_m2m_list></record_update>]]></payload>
+        <payload_hash>-2041604572</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>e139d0cf836aee10216cf7a6feaad362</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-11 07:46:39</sys_created_on>
+        <sys_id>63e4ad2b83aaa250216cf7a6feaad39d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197f8735ea20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-11 07:46:39</sys_updated_on>
+        <type>List Applicability</type>
+        <update_guid>67e4ad2b41aaa250b0a8153e7b739f9c</update_guid>
+        <update_guid_history>67e4ad2b41aaa250b0a8153e7b739f9c:-2041604572</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-11 07:46:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_applicability_m2m_list">sys_ux_applicability_m2m_list</sys_db_object>
+        <sys_id>41e63423bbc846af938fc54fe4180f11</sys_id>
+        <sys_metadata>afe4ad2b83aaa250216cf7a6feaad39a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope>
+        <sys_scope_delete display_value="">577d4c8a5c474208bff2e399f7211544</sys_scope_delete>
+        <sys_update_name>sys_ux_applicability_m2m_list_afe4ad2b83aaa250216cf7a6feaad39a</sys_update_name>
+        <sys_update_version display_value="sys_ux_applicability_m2m_list_afe4ad2b83aaa250216cf7a6feaad39a">63e4ad2b83aaa250216cf7a6feaad39d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-11 07:46:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

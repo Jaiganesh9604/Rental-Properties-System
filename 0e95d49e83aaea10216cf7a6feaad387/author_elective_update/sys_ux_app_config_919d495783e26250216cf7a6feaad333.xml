@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config">
+    <sys_ux_app_config action="DELETE">
+        <active>true</active>
+        <custom_icon/>
+        <default_route_type/>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <encode_query_string>false</encode_query_string>
+        <icon/>
+        <landing_path>home</landing_path>
+        <name>Reviewer Team</name>
+        <prefetch_limits/>
+        <sys_class_name>sys_ux_app_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 11:26:10</sys_created_on>
+        <sys_id>919d495783e26250216cf7a6feaad333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reviewer Team</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope>
+        <sys_update_name>sys_ux_app_config_919d495783e26250216cf7a6feaad333</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 11:26:10</sys_updated_on>
+    </sys_ux_app_config>
+    <sys_translated_text action="DELETE" query="documentkey=919d495783e26250216cf7a6feaad333"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</application>
+        <file_path/>
+        <instance_id>b0f3844eeb702e5056eafddacad0cd6a</instance_id>
+        <instance_name>dev324208</instance_name>
+        <name>sys_ux_app_config_919d495783e26250216cf7a6feaad333</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config"><sys_ux_app_config action="INSERT_OR_UPDATE"><active>true</active><custom_icon/><default_route_type/><description/><disable_auto_reflow>false</disable_auto_reflow><encode_query_string>false</encode_query_string><icon/><landing_path>home</landing_path><name>Reviewer Team</name><prefetch_limits/><sys_class_name>sys_ux_app_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-10 11:26:10</sys_created_on><sys_id>919d495783e26250216cf7a6feaad333</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Reviewer Team</sys_name><sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package><sys_policy/><sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope><sys_update_name>sys_ux_app_config_919d495783e26250216cf7a6feaad333</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-10 11:26:10</sys_updated_on></sys_ux_app_config><sys_translated_text action="delete_multiple" query="documentkey=919d495783e26250216cf7a6feaad333"/></record_update>]]></payload>
+        <payload_hash>-791073392</payload_hash>
+        <record_name>Reviewer Team</record_name>
+        <reverted_from/>
+        <source>e139d0cf836aee10216cf7a6feaad362</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 11:26:10</sys_created_on>
+        <sys_id>519d495783e26250216cf7a6feaad337</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197f415fc2e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 11:26:10</sys_updated_on>
+        <type>UX App Configuration</type>
+        <update_guid>559d49573ae26250c7f8148c32d4f236</update_guid>
+        <update_guid_history>559d49573ae26250c7f8148c32d4f236:-791073392</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 11:47:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_config">sys_ux_app_config</sys_db_object>
+        <sys_id>5a71548c3dba4f3c80c780a5c3b41f49</sys_id>
+        <sys_metadata>919d495783e26250216cf7a6feaad333</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reviewer Team</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope>
+        <sys_scope_delete display_value="">577d4c8a5c474208bff2e399f7211544</sys_scope_delete>
+        <sys_update_name>sys_ux_app_config_919d495783e26250216cf7a6feaad333</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_config_919d495783e26250216cf7a6feaad333">519d495783e26250216cf7a6feaad337</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 11:47:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

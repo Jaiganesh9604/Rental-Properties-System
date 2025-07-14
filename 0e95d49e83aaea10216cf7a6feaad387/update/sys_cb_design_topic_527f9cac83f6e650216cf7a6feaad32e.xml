@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="_PRVW__415347685867409cb9f20e95146ffacb">067f9cac83f6e650216cf7a6feaad32b</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"df761a30a651450da855cec45d0fbdc2","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"df761a30a651450da855cec45d0fbdc2"}],"goals":[{"name":"primary","trigger_id":"df761a30a651450da855cec45d0fbdc2","nodes":[{"type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","mode":"string","value":""},"id":"4e1f6d1fbd1d4af2a479bbfa8b6b0a89","name":"Start","expert_mode":false},{"type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"11f6f56806f44c58891b5e93d26569d4","name":"End","expert_mode":false},{"type":"TextOutputPrompt","value":[{"type":"String","mode":"string","value":"gs.getMessageLang(\"Hi, {0}\", vaContext.getRequesterLang(), [vaInputs.user.name.getDisplayValue()])"}],"request_feedback":true,"isCollapsible":true,"id":"5686c3ce2403430489af9218b4422ae3","name":"Welcome Message","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"expert_mode":false,"secure":false},{"type":"ChoiceInputPrompt","expression_mode":"simple","metadataScript":"","cardName":"","cardFields":[],"id":"02ff687697e44de3b070a77e3242f9eb","name":"Choose Action","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"expert_mode":false,"variable_id":"70148c0d25ee43e9915375b2e4fc78f4","message":{"type":"String","mode":"string","value":"gs.getMessageLang(\"How can I help you?\", vaContext.getRequesterLang())"},"request_feedback":false,"skippable":{"type":"Applicability","mode":"script","value":"false"},"skipreprompt":{"type":"Applicability","mode":"script","value":"false"},"nlu_entity_binding":{"type":"NLUEntityBinding","allow_text_input":false,"use_confirmation_prompt":true},"description":""},{"type":"InputPrompt","variable_id":"81b83f0a527d479a940f38f46b7dd6c2","message":{"type":"String","mode":"string","value":"gs.getMessageLang(\"Please enter your Request Id\", vaContext.getRequesterLang())"},"nlu_entity_binding":{"type":"NLUEntityBinding","allow_text_input":false,"use_confirmation_prompt":true},"request_feedback":true,"skippable":{"type":"Applicability","mode":"script","value":"false"},"skipreprompt":{"type":"Applicability","mode":"script","value":"false"},"metadataScript":"","cardName":"","cardFields":[],"id":"11ff69e993f94a44b567b78ea069e578","name":"Request Id","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"expert_mode":false,"formatType":"Text","validationScript":"","description":""},{"type":"Decision","name":"Decision","branches":[{"type":"Branch","label":"Check request state","expression":{"type":"Applicability","mode":"query","value":"choose_action=Check request State"},"id":"5ec48a4efa4349a28ffdfa0369baa801","name":"Check request state","expert_mode":false},{"type":"Branch","label":"Cancel the request","expression":{"type":"Applicability","mode":"query","value":"choose_action=Cancel the Request"},"id":"548dd807217a4fe6abfda4e1a988f6fb","name":"Cancel the request","expert_mode":false}],"id":"39bfa7f7c2394277ad75118c6635ca85","goal_id":"primary","expert_mode":false},{"type":"TerminateGoal","goal_id":"primary","id":"b69db01d2a0d4750a5e4f02076a4a31c","name":"ImplicitEnd__113eac7f552e4192860a75a6cb5ac596","expert_mode":false},{"type":"CRUDAction","mode":"read","read_mode":"variable","query":"number={{vaInputs.request_id}}^state=under_inspection","variable_id":"3f1cfdfde5834110ab67b9d59896a96f","id":"d973425f6a43414dae08c8e31b2e7760","name":"To cancel the request","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"expert_mode":false,"condition":{"type":"Condition","mode":"glide_query","value":"number={{vaInputs.request_id}}^state=under_inspection"}},{"type":"Decision","name":"Decision","branches":[{"type":"Branch","label":"If yes ","expression":{"type":"Applicability","mode":"query","value":"to_cancel_the_requestISNOTEMPTY"},"id":"ea4908557cbd48d2a42813f1cb4bcd98","name":"If yes ","expert_mode":false},{"type":"Branch","label":"If no","expression":{"type":"Applicability","mode":"query","value":""},"id":"8bc73708341a4b099bc3a51c14273147","name":"If no","expert_mode":false}],"id":"8954cde0a66c425697336c4e721a2cd8","goal_id":"primary","expert_mode":false},{"type":"CRUDAction","mode":"update","query":"state=cancelled","variable_id":"3f1cfdfde5834110ab67b9d59896a96f","id":"3cfced05c58b428bb6a5356097c3c356","name":"Update to cancelled state","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"expert_mode":false,"attachments":[{"type":"String","mode":"string","value":""}]},{"type":"TextOutputPrompt","value":[{"type":"String","mode":"string","value":"gs.getMessageLang(\"The given record is not in the state of under Inspection\", vaContext.getRequesterLang())"}],"request_feedback":true,"isCollapsible":true,"id":"7f3d4076af234f0da5c716f9f129f8d1","name":"If not exist","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"expert_mode":false,"secure":false},{"type":"TextOutputPrompt","value":[{"type":"String","mode":"string","value":"gs.getMessageLang(\"Your Order is cancelled\", vaContext.getRequesterLang())"}],"request_feedback":true,"isCollapsible":true,"id":"e4d4c3cda0834291ba21d845867464ec","name":"Cancelled","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"expert_mode":false,"secure":false}],"edges":[{"type":"Edge","source_node_id":"4e1f6d1fbd1d4af2a479bbfa8b6b0a89","target_node_id":"5686c3ce2403430489af9218b4422ae3","id":"6e03d5d7170e48a29cb05ccaa54e0eb6"},{"type":"Edge","source_node_id":"5686c3ce2403430489af9218b4422ae3","target_node_id":"02ff687697e44de3b070a77e3242f9eb","id":"e80c854599724837935950e94a77e9f3"},{"type":"Edge","source_node_id":"02ff687697e44de3b070a77e3242f9eb","target_node_id":"11ff69e993f94a44b567b78ea069e578","id":"8f261629192a44079adc680319331427"},{"type":"Edge","source_node_id":"11ff69e993f94a44b567b78ea069e578","target_node_id":"39bfa7f7c2394277ad75118c6635ca85","id":"979abf3427b74825be5b53939051e39d"},{"type":"Edge","source_node_id":"39bfa7f7c2394277ad75118c6635ca85","target_node_id":"b69db01d2a0d4750a5e4f02076a4a31c","branch_id":"5ec48a4efa4349a28ffdfa0369baa801","id":"8acdf800e92747daaa25ee76651801a0","name":"5ec48a4efa4349a28ffdfa0369baa801"},{"type":"Edge","source_node_id":"39bfa7f7c2394277ad75118c6635ca85","target_node_id":"d973425f6a43414dae08c8e31b2e7760","branch_id":"548dd807217a4fe6abfda4e1a988f6fb","id":"2e0d8a1809b14f9bbe74ba6b94ba3a29","name":"548dd807217a4fe6abfda4e1a988f6fb"},{"type":"Edge","source_node_id":"d973425f6a43414dae08c8e31b2e7760","target_node_id":"8954cde0a66c425697336c4e721a2cd8","id":"21d311917b7a4d6d82e7de5de38d6329"},{"type":"Edge","source_node_id":"8954cde0a66c425697336c4e721a2cd8","target_node_id":"3cfced05c58b428bb6a5356097c3c356","branch_id":"ea4908557cbd48d2a42813f1cb4bcd98","id":"52d2d1f7d07541069b472502f7f7e0d1","name":"ea4908557cbd48d2a42813f1cb4bcd98"},{"type":"Edge","source_node_id":"8954cde0a66c425697336c4e721a2cd8","target_node_id":"7f3d4076af234f0da5c716f9f129f8d1","branch_id":"8bc73708341a4b099bc3a51c14273147","id":"c2994ea8c6094d72814bcf00095cd1fb","name":"8bc73708341a4b099bc3a51c14273147"},{"type":"Edge","source_node_id":"7f3d4076af234f0da5c716f9f129f8d1","target_node_id":"11f6f56806f44c58891b5e93d26569d4","id":"959eac9b80dc428ca583dca03f6788a1"},{"type":"Edge","source_node_id":"3cfced05c58b428bb6a5356097c3c356","target_node_id":"e4d4c3cda0834291ba21d845867464ec","id":"bc9568ccdd494313b25a62b0ee00df20"},{"type":"Edge","source_node_id":"e4d4c3cda0834291ba21d845867464ec","target_node_id":"11f6f56806f44c58891b5e93d26569d4","id":"7e5e595d15a44cb6be8b39351b9349af"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","table":"sys_user","auto_select":false,"id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false,"aiInput":false,"list":false},{"type":"Choice","choices":[{"name":"Check request State","element":"Check request State"},{"name":"Cancel the Request","element":"Cancel the Request"}],"id":"70148c0d25ee43e9915375b2e4fc78f4","name":"choose_action","formatType":"text","secure":false,"sensitive":false,"aiInput":false,"list":false,"label":"Choose Action"},{"type":"String","name":"request_id","list":false,"id":"81b83f0a527d479a940f38f46b7dd6c2","formatType":"Text","validationScript":"","secure":false,"sensitive":false,"aiInput":false},{"type":"Reference","table":"x_1777187_rental_0_agent_property_details","auto_select":false,"id":"3f1cfdfde5834110ab67b9d59896a96f","name":"to_cancel_the_request","formatType":"text","secure":false,"sensitive":false,"aiInput":false,"list":false},{"type":"Reference","table":"","auto_select":false,"id":"9ba1cc024e3445bb8a39200d76611a55","name":"update_to_cancelled_state","formatType":"text","secure":false,"sensitive":false,"aiInput":false,"list":false}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"0e95d49e83aaea10216cf7a6feaad387","domain":"global","topic_type":"STANDARD","channels":[],"dialog_acts_enabled":false,"id":"3a912d18833aa650216cf7a6feaad3f0","name":"_PRVW__415347685867409cb9f20e95146ffacb","key_phrases":["rental_property_system"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"autopilot_topic":false,"design_categories":[],"triggerable_by_notification":false,"model_type":"nlu_keyword","foundational":false,"modify_confirmation_enabled":false,"context_profiles":[],"title":"Rental Property System","library":false,"readOnly":false,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>3a912d18833aa650216cf7a6feaad3f0</design_topic_id>
+        <graph>{
+  "graph_api_version": "1.0.78",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "4e1f6d1fbd1d4af2a479bbfa8b6b0a89": {
+          "id": "4e1f6d1fbd1d4af2a479bbfa8b6b0a89",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "11f6f56806f44c58891b5e93d26569d4": {
+          "id": "11f6f56806f44c58891b5e93d26569d4",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "5686c3ce2403430489af9218b4422ae3": {
+          "id": "5686c3ce2403430489af9218b4422ae3",
+          "stepType": "TextOutput",
+          "name": "Welcome Message",
+          "secure": false,
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Hi, "
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaInputs.user.name}}",
+                        "displayValue": "Input Variables➛User➛Name"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "_key": "3674d14dd7334feab47d825b6a16bac3"
+            }
+          ],
+          "isCollapsible": true,
+          "requestFeedback": true,
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "02ff687697e44de3b070a77e3242f9eb": {
+          "name": "Choose Action",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "How can I help you?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "70148c0d25ee43e9915375b2e4fc78f4",
+          "detailDescription": "",
+          "id": "02ff687697e44de3b070a77e3242f9eb",
+          "stepType": "ChoicePrompt",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "11ff69e993f94a44b567b78ea069e578": {
+          "id": "11ff69e993f94a44b567b78ea069e578",
+          "stepType": "TextPrompt",
+          "name": "Request Id",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Please enter your Request Id"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "81b83f0a527d479a940f38f46b7dd6c2",
+          "detailDescription": "",
+          "inputType": {
+            "format": "Text",
+            "script": ""
+          },
+          "requestFeedback": true
+        },
+        "39bfa7f7c2394277ad75118c6635ca85": {
+          "id": "39bfa7f7c2394277ad75118c6635ca85",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "b69db01d2a0d4750a5e4f02076a4a31c": {
+          "id": "b69db01d2a0d4750a5e4f02076a4a31c",
+          "stepType": "ImplicitEnd"
+        },
+        "d973425f6a43414dae08c8e31b2e7760": {
+          "id": "d973425f6a43414dae08c8e31b2e7760",
+          "stepType": "LookupRecord",
+          "name": "To cancel the request",
+          "condition": {
+            "mode": "glide_query",
+            "value": "number={{vaInputs.request_id}}^state=under_inspection"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "3f1cfdfde5834110ab67b9d59896a96f"
+        },
+        "8954cde0a66c425697336c4e721a2cd8": {
+          "id": "8954cde0a66c425697336c4e721a2cd8",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "3cfced05c58b428bb6a5356097c3c356": {
+          "id": "3cfced05c58b428bb6a5356097c3c356",
+          "stepType": "CrudAction",
+          "name": "Update to cancelled state",
+          "template": {
+            "query": {
+              "terms": [
+                {
+                  "prefix": "",
+                  "operator": "=",
+                  "operand": "state",
+                  "expression": "cancelled",
+                  "id": "eb828a11867f485cbf1d9b007e595540"
+                }
+              ]
+            },
+            "queryString": "state=cancelled"
+          },
+          "mode": "update",
+          "record": "3f1cfdfde5834110ab67b9d59896a96f",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "attachments": [
+            {
+              "value": "",
+              "mode": "simple"
+            }
+          ],
+          "variableId": "9ba1cc024e3445bb8a39200d76611a55"
+        },
+        "7f3d4076af234f0da5c716f9f129f8d1": {
+          "id": "7f3d4076af234f0da5c716f9f129f8d1",
+          "stepType": "TextOutput",
+          "name": "If not exist",
+          "secure": false,
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "The given record is not in the state of under Inspection"
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "_key": "7992f09a26a84ae093118f1abbaf2606"
+            }
+          ],
+          "isCollapsible": true,
+          "requestFeedback": true,
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "e4d4c3cda0834291ba21d845867464ec": {
+          "id": "e4d4c3cda0834291ba21d845867464ec",
+          "stepType": "TextOutput",
+          "name": "Cancelled",
+          "secure": false,
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Your Order is cancelled"
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "_key": "b7649d0e8f0f41ad9b3683acf0255bdb"
+            }
+          ],
+          "isCollapsible": true,
+          "requestFeedback": true,
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "6e03d5d7170e48a29cb05ccaa54e0eb6",
+          "edgeType": "Edge",
+          "source": "4e1f6d1fbd1d4af2a479bbfa8b6b0a89",
+          "target": "5686c3ce2403430489af9218b4422ae3",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "e80c854599724837935950e94a77e9f3",
+          "edgeType": "Edge",
+          "source": "5686c3ce2403430489af9218b4422ae3",
+          "target": "02ff687697e44de3b070a77e3242f9eb",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "8f261629192a44079adc680319331427",
+          "edgeType": "Edge",
+          "source": "02ff687697e44de3b070a77e3242f9eb",
+          "target": "11ff69e993f94a44b567b78ea069e578",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "979abf3427b74825be5b53939051e39d",
+          "edgeType": "Edge",
+          "source": "11ff69e993f94a44b567b78ea069e578",
+          "target": "39bfa7f7c2394277ad75118c6635ca85",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "8acdf800e92747daaa25ee76651801a0",
+          "edgeType": "Branch",
+          "source": "39bfa7f7c2394277ad75118c6635ca85",
+          "target": "b69db01d2a0d4750a5e4f02076a4a31c",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.choose_action=Check request State",
+            "mode": "query"
+          },
+          "label": "Check request state"
+        },
+        {
+          "id": "2e0d8a1809b14f9bbe74ba6b94ba3a29",
+          "edgeType": "Branch",
+          "source": "39bfa7f7c2394277ad75118c6635ca85",
+          "target": "d973425f6a43414dae08c8e31b2e7760",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.choose_action=Cancel the Request",
+            "mode": "query"
+          },
+          "label": "Cancel the request"
+        },
+        {
+          "id": "21d311917b7a4d6d82e7de5de38d6329",
+          "edgeType": "Edge",
+          "source": "d973425f6a43414dae08c8e31b2e7760",
+          "target": "8954cde0a66c425697336c4e721a2cd8",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "52d2d1f7d07541069b472502f7f7e0d1",
+          "edgeType": "Branch",
+          "source": "8954cde0a66c425697336c4e721a2cd8",
+          "target": "3cfced05c58b428bb6a5356097c3c356",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.to_cancel_the_requestISNOTEMPTY",
+            "mode": "query"
+          },
+          "label": "If yes "
+        },
+        {
+          "id": "c2994ea8c6094d72814bcf00095cd1fb",
+          "edgeType": "Branch",
+          "source": "8954cde0a66c425697336c4e721a2cd8",
+          "target": "7f3d4076af234f0da5c716f9f129f8d1",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "query",
+            "value": ""
+          },
+          "label": "If no"
+        },
+        {
+          "id": "959eac9b80dc428ca583dca03f6788a1",
+          "edgeType": "Edge",
+          "source": "7f3d4076af234f0da5c716f9f129f8d1",
+          "target": "11f6f56806f44c58891b5e93d26569d4",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "bc9568ccdd494313b25a62b0ee00df20",
+          "edgeType": "Edge",
+          "source": "3cfced05c58b428bb6a5356097c3c356",
+          "target": "e4d4c3cda0834291ba21d845867464ec",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "7e5e595d15a44cb6be8b39351b9349af",
+          "edgeType": "Edge",
+          "source": "e4d4c3cda0834291ba21d845867464ec",
+          "target": "11f6f56806f44c58891b5e93d26569d4",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "70148c0d25ee43e9915375b2e4fc78f4": {
+      "id": "70148c0d25ee43e9915375b2e4fc78f4",
+      "name": "choose_action",
+      "label": "Choose Action",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Check request State",
+          "value": "Check request State"
+        },
+        {
+          "label": "Cancel the Request",
+          "value": "Cancel the Request"
+        }
+      ],
+      "category": "vaInputs",
+      "nodeId": "02ff687697e44de3b070a77e3242f9eb",
+      "isHidden": false
+    },
+    "81b83f0a527d479a940f38f46b7dd6c2": {
+      "id": "81b83f0a527d479a940f38f46b7dd6c2",
+      "name": "request_id",
+      "label": "Request Id",
+      "varType": "string",
+      "secure": false,
+      "category": "vaInputs",
+      "encryptionHashFunction": "SHA-256",
+      "encryptionSalt": {
+        "value": "MTc1MjQ2OTI1MjY1MSBWQSBEZXNpZ25lciBpcyBhd2Vzb21l",
+        "mode": "simple"
+      },
+      "nodeId": "11ff69e993f94a44b567b78ea069e578",
+      "isHidden": false
+    },
+    "3f1cfdfde5834110ab67b9d59896a96f": {
+      "id": "3f1cfdfde5834110ab67b9d59896a96f",
+      "name": "to_cancel_the_request",
+      "label": "To Cancel The Request",
+      "varType": "reference",
+      "table": "x_1777187_rental_0_agent_property_details",
+      "category": "vaInputs",
+      "nodeId": "d973425f6a43414dae08c8e31b2e7760",
+      "isHidden": false
+    },
+    "9ba1cc024e3445bb8a39200d76611a55": {
+      "id": "9ba1cc024e3445bb8a39200d76611a55",
+      "name": "update_to_cancelled_state",
+      "label": "Update To Cancelled State",
+      "varType": "reference",
+      "table": "",
+      "inactive": true,
+      "category": "vaInputs",
+      "nodeId": "3cfced05c58b428bb6a5356097c3c356",
+      "isHidden": false
+    }
+  }
+}</graph>
+        <name>_PRVW__415347685867409cb9f20e95146ffacb</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-14 05:17:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>527f9cac83f6e650216cf7a6feaad32e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope>
+        <sys_update_name>sys_cb_design_topic_527f9cac83f6e650216cf7a6feaad32e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-14 05:17:07</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>

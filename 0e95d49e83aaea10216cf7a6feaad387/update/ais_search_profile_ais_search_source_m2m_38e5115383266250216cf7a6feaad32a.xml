@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <exclude_attachments_in_now_assist_genius_results>false</exclude_attachments_in_now_assist_genius_results>
+        <exclude_in_now_assist_genius_results>false</exclude_in_now_assist_genius_results>
+        <exclude_in_regular_search>false</exclude_in_regular_search>
+        <profile display_value="rental-properties-system Search Profile">62d55d135726625008f8cd49ac3c51c3</profile>
+        <search_source display_value="Inspection Details">78e5115383266250216cf7a6feaad30e</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 12:02:27</sys_created_on>
+        <sys_id>38e5115383266250216cf7a6feaad32a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>rental-properties-system Search Profile.Inspection Details</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_38e5115383266250216cf7a6feaad32a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 12:02:27</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+</record_update>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_1777187_rental_0_agent_property_details">moving_out=true<item endquery="false" field="moving_out" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        <conditions table="x_1777187_rental_0_agent_property_details">moving_out=yes<item display_value="Yes" endquery="false" field="moving_out" goto="false" newquery="false" operator="=" or="false" value="yes"/>
         </conditions>
         <description/>
         <global>true</global>
@@ -23,7 +23,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b5cffade832a2e10216cf7a6feaad331</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Make when field mandatory when the moving out field is true</sys_name>
         <sys_overrides/>
         <sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package>
@@ -31,7 +31,7 @@
         <sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope>
         <sys_update_name>sys_ui_policy_b5cffade832a2e10216cf7a6feaad331</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-07 17:11:10</sys_updated_on>
+        <sys_updated_on>2025-07-10 19:46:21</sys_updated_on>
         <table>x_1777187_rental_0_agent_property_details</table>
         <ui_type>0</ui_type>
         <view/>

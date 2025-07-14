@@ -14,7 +14,7 @@
     if (g_user.hasRole('x_1777187_rental_0.agent')) {
         var userId = g_user.userID;
         g_form.setValue('agent_name', userId);
-    }
+    }   
 
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -23,7 +23,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>74c5ba3e8362ee10216cf7a6feaad34f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>User Details</sys_name>
         <sys_overrides/>
         <sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package>
@@ -31,7 +31,7 @@
         <sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope>
         <sys_update_name>sys_script_client_74c5ba3e8362ee10216cf7a6feaad34f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 05:50:59</sys_updated_on>
+        <sys_updated_on>2025-07-13 09:56:23</sys_updated_on>
         <table>x_1777187_rental_0_agent_property_details</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

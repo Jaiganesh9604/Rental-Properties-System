@@ -4,13 +4,13 @@
             <element>tenant_name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-07 16:35:58</sys_created_on>
-            <sys_id>46b73256832a2e10216cf7a6feaad329</sys_id>
+            <sys_created_on>2025-07-10 19:36:27</sys_created_on>
+            <sys_id>0bcd3e1f832e6250216cf7a6feaad3bb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tenant Details" display_value="Tenant Details" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="Default view">3db7fe16832a2e10216cf7a6feaad39f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-07 16:35:58</sys_updated_on>
+            <sys_updated_on>2025-07-10 19:36:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>tenant_mobile_number</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-07 16:35:58</sys_created_on>
-            <sys_id>4eb73256832a2e10216cf7a6feaad329</sys_id>
+            <sys_created_on>2025-07-10 19:36:27</sys_created_on>
+            <sys_id>47cd3e1f832e6250216cf7a6feaad3bc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tenant Details" display_value="Tenant Details" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="Default view">3db7fe16832a2e10216cf7a6feaad39f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-07 16:35:58</sys_updated_on>
+            <sys_updated_on>2025-07-10 19:36:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>moving_out</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-07 16:35:58</sys_created_on>
-            <sys_id>46b73256832a2e10216cf7a6feaad32a</sys_id>
+            <sys_created_on>2025-07-10 19:36:27</sys_created_on>
+            <sys_id>5fcd3e1f832e6250216cf7a6feaad3bc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tenant Details" display_value="Tenant Details" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="Default view">3db7fe16832a2e10216cf7a6feaad39f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-07 16:35:58</sys_updated_on>
+            <sys_updated_on>2025-07-10 19:36:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>when</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-07 16:35:58</sys_created_on>
-            <sys_id>4eb73256832a2e10216cf7a6feaad32a</sys_id>
+            <sys_created_on>2025-07-10 19:36:27</sys_created_on>
+            <sys_id>57cd3e1f832e6250216cf7a6feaad3bd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tenant Details" display_value="Tenant Details" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="Default view">3db7fe16832a2e10216cf7a6feaad39f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-07 16:35:58</sys_updated_on>
+            <sys_updated_on>2025-07-10 19:36:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,111 +60,97 @@
             <element>current_management_company</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-07 16:35:58</sys_created_on>
-            <sys_id>46b73256832a2e10216cf7a6feaad32b</sys_id>
+            <sys_created_on>2025-07-10 19:36:27</sys_created_on>
+            <sys_id>5fcd3e1f832e6250216cf7a6feaad3bd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tenant Details" display_value="Tenant Details" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="Default view">3db7fe16832a2e10216cf7a6feaad39f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-07 16:35:58</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>management_company_contract_expiration</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-07 16:35:58</sys_created_on>
-            <sys_id>4eb73256832a2e10216cf7a6feaad32b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Tenant Details" display_value="Tenant Details" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="Default view">3db7fe16832a2e10216cf7a6feaad39f</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-07 16:35:58</sys_updated_on>
+            <sys_updated_on>2025-07-10 19:36:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>6</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-07 16:35:58</sys_created_on>
-            <sys_id>46b73256832a2e10216cf7a6feaad32c</sys_id>
+            <sys_created_on>2025-07-10 19:36:27</sys_created_on>
+            <sys_id>57cd3e1f832e6250216cf7a6feaad3be</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tenant Details" display_value="Tenant Details" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="Default view">3db7fe16832a2e10216cf7a6feaad39f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-07 16:35:58</sys_updated_on>
+            <sys_updated_on>2025-07-10 19:36:27</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>are_all_tenants_on_the_lease</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-07 16:35:58</sys_created_on>
-            <sys_id>4eb73256832a2e10216cf7a6feaad32c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Tenant Details" display_value="Tenant Details" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="Default view">3db7fe16832a2e10216cf7a6feaad39f</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-07 16:35:58</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
             <element>length_of_lease</element>
-            <position>8</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-07 16:35:58</sys_created_on>
-            <sys_id>46b73256832a2e10216cf7a6feaad32d</sys_id>
+            <sys_created_on>2025-07-10 19:36:27</sys_created_on>
+            <sys_id>5fcd3e1f832e6250216cf7a6feaad3be</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tenant Details" display_value="Tenant Details" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="Default view">3db7fe16832a2e10216cf7a6feaad39f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-07 16:35:58</sys_updated_on>
+            <sys_updated_on>2025-07-10 19:36:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>length_of_tenancy</element>
-            <position>9</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-07 16:35:58</sys_created_on>
-            <sys_id>4eb73256832a2e10216cf7a6feaad32d</sys_id>
+            <sys_created_on>2025-07-10 19:36:27</sys_created_on>
+            <sys_id>57cd3e1f832e6250216cf7a6feaad3bf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tenant Details" display_value="Tenant Details" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="Default view">3db7fe16832a2e10216cf7a6feaad39f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-07 16:35:58</sys_updated_on>
+            <sys_updated_on>2025-07-10 19:36:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>rent_amount</element>
-            <position>10</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-07 16:35:58</sys_created_on>
-            <sys_id>46b73256832a2e10216cf7a6feaad32e</sys_id>
+            <sys_created_on>2025-07-10 19:36:27</sys_created_on>
+            <sys_id>5fcd3e1f832e6250216cf7a6feaad3bf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tenant Details" display_value="Tenant Details" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="Default view">3db7fe16832a2e10216cf7a6feaad39f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-07 16:35:58</sys_updated_on>
+            <sys_updated_on>2025-07-10 19:36:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>deposit_amount</element>
-            <position>11</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-07 16:35:58</sys_created_on>
-            <sys_id>4eb73256832a2e10216cf7a6feaad32e</sys_id>
+            <sys_created_on>2025-07-10 19:36:27</sys_created_on>
+            <sys_id>57cd3e1f832e6250216cf7a6feaad3c0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tenant Details" display_value="Tenant Details" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="Default view">3db7fe16832a2e10216cf7a6feaad39f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-07 16:35:58</sys_updated_on>
+            <sys_updated_on>2025-07-10 19:36:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>management_company_contract_expiration</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-10 19:36:27</sys_created_on>
+            <sys_id>5fcd3e1f832e6250216cf7a6feaad3c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Tenant Details" display_value="Tenant Details" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="Default view">3db7fe16832a2e10216cf7a6feaad39f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-10 19:36:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

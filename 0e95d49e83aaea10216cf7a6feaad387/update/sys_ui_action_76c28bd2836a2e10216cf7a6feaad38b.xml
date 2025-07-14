@@ -31,12 +31,11 @@
         <onclick/>
         <order>100</order>
         <script><![CDATA[var InspectorId = gs.getUserID();
-current.state = 'under_inspection';
 current.assigned_to = InspectorId;
-current.update();
+var state_change = current.agent_details;
+gs.info(current.agent_details);
 
-
-]]></script>
+current.update();]]></script>
         <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -47,7 +46,7 @@ current.update();
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>76c28bd2836a2e10216cf7a6feaad38b</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_name>Acceptance of Inspection </sys_name>
         <sys_overrides/>
         <sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package>
@@ -55,7 +54,7 @@ current.update();
         <sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope>
         <sys_update_name>sys_ui_action_76c28bd2836a2e10216cf7a6feaad38b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 05:43:45</sys_updated_on>
+        <sys_updated_on>2025-07-10 07:42:31</sys_updated_on>
         <table>x_1777187_rental_0_inspection_details</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

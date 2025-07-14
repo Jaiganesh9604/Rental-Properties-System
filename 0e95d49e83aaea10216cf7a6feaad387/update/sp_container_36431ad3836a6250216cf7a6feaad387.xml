@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>My Inspection Task - Container 1</name>
+        <order>1</order>
+        <semantic_tag/>
+        <sp_page display_value="rps_inspection_details">257e881383ae2250216cf7a6feaad3e2</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 16:30:45</sys_created_on>
+        <sys_id>36431ad3836a6250216cf7a6feaad387</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>My Inspection Task - Container 1</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope>
+        <sys_update_name>sp_container_36431ad3836a6250216cf7a6feaad387</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 16:30:53</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+</record_update>

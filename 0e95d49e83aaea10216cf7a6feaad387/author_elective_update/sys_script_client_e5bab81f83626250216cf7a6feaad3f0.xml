@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>state changes from inspection to pending</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+  
+  
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 10:13:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e5bab81f83626250216cf7a6feaad3f0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>state changes from inspection to pending</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope>
+        <sys_update_name>sys_script_client_e5bab81f83626250216cf7a6feaad3f0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 10:13:18</sys_updated_on>
+        <table>x_1777187_rental_0_inspection_details</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</application>
+        <file_path/>
+        <instance_id>b0f3844eeb702e5056eafddacad0cd6a</instance_id>
+        <instance_name>dev324208</instance_name>
+        <name>sys_script_client_e5bab81f83626250216cf7a6feaad3f0</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;state changes from inspection to pending&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+  
+  
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-07-10 10:13:08&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e5bab81f83626250216cf7a6feaad3f0&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;state changes from inspection to pending&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Rental Properties System" source="x_1777187_rental_0"&gt;0e95d49e83aaea10216cf7a6feaad387&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Rental Properties System"&gt;0e95d49e83aaea10216cf7a6feaad387&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_e5bab81f83626250216cf7a6feaad3f0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-07-10 10:13:18&lt;/sys_updated_on&gt;&lt;table&gt;x_1777187_rental_0_inspection_details&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-491826439</payload_hash>
+        <record_name>state changes from inspection to pending</record_name>
+        <reverted_from/>
+        <source>e139d0cf836aee10216cf7a6feaad362</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 10:13:18</sys_created_on>
+        <sys_id>c6ec38df83626250216cf7a6feaad361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197f3d345580000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 10:13:18</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>4eec38dfe4626250af8f399780d28860</update_guid>
+        <update_guid_history>4eec38dfe4626250af8f399780d28860:-491826439,23dc301f8862625054632f5e858c86ed:-1390988564</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-13 08:44:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>12a9353e63794617b9a22c0cddf949c1</sys_id>
+        <sys_metadata>e5bab81f83626250216cf7a6feaad3f0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>state changes from inspection to pending</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package>
+        <sys_parent display_value="Inspection Details">4907d41283eaea10216cf7a6feaad31b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope>
+        <sys_scope_delete display_value="">577d4c8a5c474208bff2e399f7211544</sys_scope_delete>
+        <sys_update_name>sys_script_client_e5bab81f83626250216cf7a6feaad3f0</sys_update_name>
+        <sys_update_version display_value="sys_script_client_e5bab81f83626250216cf7a6feaad3f0">c6ec38df83626250216cf7a6feaad361</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-13 08:44:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

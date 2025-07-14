@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Electrical" section_id="16e5155383266250216cf7a6feaad387" sys_domain="global" table="x_1777187_rental_0_inspection_details" version="3" view="workspace-rental-properties-system-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>no_signs_of_improper_wiring</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-10 12:02:33</sys_created_on>
+            <sys_id>16e5155383266250216cf7a6feaad396</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Electrical" display_value="Electrical" name="x_1777187_rental_0_inspection_details" sys_domain="global" view="eed55d13d4266250c53edfb532ce90ba">16e5155383266250216cf7a6feaad387</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-10 12:02:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-10 12:02:33</sys_created_on>
+            <sys_id>1ee5155383266250216cf7a6feaad395</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Electrical" display_value="Electrical" name="x_1777187_rental_0_inspection_details" sys_domain="global" view="eed55d13d4266250c53edfb532ce90ba">16e5155383266250216cf7a6feaad387</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-10 12:02:33</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>all_lights_are_fully_functional</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-10 12:02:33</sys_created_on>
+            <sys_id>1ee5155383266250216cf7a6feaad396</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Electrical" display_value="Electrical" name="x_1777187_rental_0_inspection_details" sys_domain="global" view="eed55d13d4266250c53edfb532ce90ba">16e5155383266250216cf7a6feaad387</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-10 12:02:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Electrical</caption>
+            <header>false</header>
+            <name>x_1777187_rental_0_inspection_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-10 12:02:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>16e5155383266250216cf7a6feaad387</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1777187_rental_0_inspection_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope>
+            <sys_update_name>sys_ui_section_16e5155383266250216cf7a6feaad387</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-10 12:02:33</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Rental Properties System 0" name="workspace-rental-properties-system-0">eed55d13d4266250c53edfb532ce90ba</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

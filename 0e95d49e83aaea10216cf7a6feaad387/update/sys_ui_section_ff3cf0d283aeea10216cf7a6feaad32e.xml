@@ -4,13 +4,13 @@
             <element>spa</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-07 07:36:33</sys_created_on>
-            <sys_id>1c4cf0d283aeea10216cf7a6feaad3af</sys_id>
+            <sys_created_on>2025-07-10 19:25:58</sys_created_on>
+            <sys_id>616bf25b832e6250216cf7a6feaad391</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Complex Amenities" display_value="Complex Amenities" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="Default view">ff3cf0d283aeea10216cf7a6feaad32e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-07 07:36:33</sys_updated_on>
+            <sys_updated_on>2025-07-10 19:25:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>laundry</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-07 07:36:33</sys_created_on>
-            <sys_id>904cf0d283aeea10216cf7a6feaad3b0</sys_id>
+            <sys_created_on>2025-07-10 19:25:58</sys_created_on>
+            <sys_id>696bf25b832e6250216cf7a6feaad391</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Complex Amenities" display_value="Complex Amenities" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="Default view">ff3cf0d283aeea10216cf7a6feaad32e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-07 07:36:33</sys_updated_on>
+            <sys_updated_on>2025-07-10 19:25:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>rec_room</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-07 07:36:33</sys_created_on>
-            <sys_id>184cf0d283aeea10216cf7a6feaad3b0</sys_id>
+            <sys_created_on>2025-07-10 19:25:58</sys_created_on>
+            <sys_id>616bf25b832e6250216cf7a6feaad392</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Complex Amenities" display_value="Complex Amenities" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="Default view">ff3cf0d283aeea10216cf7a6feaad32e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-07 07:36:33</sys_updated_on>
+            <sys_updated_on>2025-07-10 19:25:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>steam_room</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-07 07:36:33</sys_created_on>
-            <sys_id>9c4cf0d283aeea10216cf7a6feaad3b0</sys_id>
+            <sys_created_on>2025-07-10 19:25:58</sys_created_on>
+            <sys_id>696bf25b832e6250216cf7a6feaad392</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Complex Amenities" display_value="Complex Amenities" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="Default view">ff3cf0d283aeea10216cf7a6feaad32e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-07 07:36:33</sys_updated_on>
+            <sys_updated_on>2025-07-10 19:25:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>exercise_room</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-07 07:36:33</sys_created_on>
-            <sys_id>144cf0d283aeea10216cf7a6feaad3b1</sys_id>
+            <sys_created_on>2025-07-10 19:25:58</sys_created_on>
+            <sys_id>616bf25b832e6250216cf7a6feaad393</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Complex Amenities" display_value="Complex Amenities" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="Default view">ff3cf0d283aeea10216cf7a6feaad32e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-07 07:36:33</sys_updated_on>
+            <sys_updated_on>2025-07-10 19:25:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,27 +74,27 @@
             <element>.split</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-07 07:36:33</sys_created_on>
-            <sys_id>984cf0d283aeea10216cf7a6feaad3b1</sys_id>
+            <sys_created_on>2025-07-10 19:25:58</sys_created_on>
+            <sys_id>696bf25b832e6250216cf7a6feaad393</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Complex Amenities" display_value="Complex Amenities" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="Default view">ff3cf0d283aeea10216cf7a6feaad32e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-07 07:36:33</sys_updated_on>
+            <sys_updated_on>2025-07-10 19:25:58</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>club_house</element>
+            <element>clubhouse</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-07 07:36:33</sys_created_on>
-            <sys_id>104cf0d283aeea10216cf7a6feaad3b2</sys_id>
+            <sys_created_on>2025-07-10 19:25:58</sys_created_on>
+            <sys_id>616bf25b832e6250216cf7a6feaad394</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Complex Amenities" display_value="Complex Amenities" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="Default view">ff3cf0d283aeea10216cf7a6feaad32e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-07 07:36:33</sys_updated_on>
+            <sys_updated_on>2025-07-10 19:25:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>playground</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-07 07:36:33</sys_created_on>
-            <sys_id>944cf0d283aeea10216cf7a6feaad3b2</sys_id>
+            <sys_created_on>2025-07-10 19:25:58</sys_created_on>
+            <sys_id>696bf25b832e6250216cf7a6feaad394</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Complex Amenities" display_value="Complex Amenities" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="Default view">ff3cf0d283aeea10216cf7a6feaad32e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-07 07:36:33</sys_updated_on>
+            <sys_updated_on>2025-07-10 19:25:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,27 +116,27 @@
             <element>tennis_court</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-07 07:36:33</sys_created_on>
-            <sys_id>1c4cf0d283aeea10216cf7a6feaad3b2</sys_id>
+            <sys_created_on>2025-07-10 19:25:58</sys_created_on>
+            <sys_id>616bf25b832e6250216cf7a6feaad395</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Complex Amenities" display_value="Complex Amenities" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="Default view">ff3cf0d283aeea10216cf7a6feaad32e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-07 07:36:33</sys_updated_on>
+            <sys_updated_on>2025-07-10 19:25:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>volley_ball_court</element>
+            <element>volleyball</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-07 07:36:33</sys_created_on>
-            <sys_id>904cf0d283aeea10216cf7a6feaad3b3</sys_id>
+            <sys_created_on>2025-07-10 19:25:58</sys_created_on>
+            <sys_id>696bf25b832e6250216cf7a6feaad395</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Complex Amenities" display_value="Complex Amenities" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="Default view">ff3cf0d283aeea10216cf7a6feaad32e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-07 07:36:33</sys_updated_on>
+            <sys_updated_on>2025-07-10 19:25:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -144,13 +144,13 @@
             <element>others_complex_amenities</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-07 07:36:33</sys_created_on>
-            <sys_id>184cf0d283aeea10216cf7a6feaad3b3</sys_id>
+            <sys_created_on>2025-07-10 19:25:58</sys_created_on>
+            <sys_id>616bf25b832e6250216cf7a6feaad396</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Complex Amenities" display_value="Complex Amenities" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="Default view">ff3cf0d283aeea10216cf7a6feaad32e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-07 07:36:33</sys_updated_on>
+            <sys_updated_on>2025-07-10 19:25:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

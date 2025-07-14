@@ -7,21 +7,26 @@
         <field>how_many_rooms_are_there</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
-        <messages/>
+        <messages>	&#13;
+how_many_rooms_are_there</messages>
         <name>Rooms shouldn't be negative</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
-   if (isLoading || newValue === '') {
-      return;
-   }
-    if (isNaN(newValue) || newValue < 0) {
-        var errorMsg = 'No of rooms should not be less than 0.';
-        g_form.showFieldMsg('how_many_rooms_are_there', errorMsg, 'error');
+    if (isLoading || newValue === '') {
+        return;
+    }
+    var value = g_form.getValue('how_many_rooms_are_there');
 
+    if (isNaN(value) || value === '' || value === null) {
+        g_form.showFieldMsg('how_many_rooms_are_there', 'Please enter a valid numeric value.', 'error');
+        // g_form.setValue('deposit_amount', '');
+    } else if (parseFloat(value) < 0) {
+        g_form.showFieldMsg('how_many_rooms_are_there', 'Value cannot be less than zero.', 'error');
+        // g_form.setValue('deposit_amount', '');
     }
 
-   //Type appropriate comment here, and begin script below
-   
+    //Type appropriate comment here, and begin script below
+
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -29,7 +34,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a3e9fea6836e6e10216cf7a6feaad3e4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Rooms shouldn't be negative</sys_name>
         <sys_overrides/>
         <sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package>
@@ -37,7 +42,7 @@
         <sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope>
         <sys_update_name>sys_script_client_a3e9fea6836e6e10216cf7a6feaad3e4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-08 11:27:51</sys_updated_on>
+        <sys_updated_on>2025-07-10 20:16:59</sys_updated_on>
         <table>x_1777187_rental_0_agent_property_details</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

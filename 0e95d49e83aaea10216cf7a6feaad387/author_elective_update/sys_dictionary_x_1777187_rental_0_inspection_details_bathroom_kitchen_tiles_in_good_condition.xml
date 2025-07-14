@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="bathroom_kitchen_tiles_in_good_condition" table="x_1777187_rental_0_inspection_details">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Bathroom &amp; kitchen tiles in good condition</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>bathroom_kitchen_tiles_in_good_condition</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="">boolean</internal_type>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <name>x_1777187_rental_0_inspection_details</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-07 08:39:51</sys_created_on>
+        <sys_id>bfba019683eeea10216cf7a6feaad33d</sys_id>
+        <sys_name>Bathroom &amp; kitchen tiles in good condition</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope>
+        <sys_update_name>sys_dictionary_x_1777187_rental_0_inspection_details_bathroom_kitchen_tiles_in_good_condition</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-07 09:40:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</application>
+        <file_path/>
+        <instance_id>b0f3844eeb702e5056eafddacad0cd6a</instance_id>
+        <instance_name>dev324208</instance_name>
+        <name>sys_dictionary_x_1777187_rental_0_inspection_details_bathroom_kitchen_tiles_in_good_condition</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="bathroom_kitchen_tiles_in_good_condition" table="x_1777187_rental_0_inspection_details"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Bathroom &amp; kitchen tiles in good condition</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>bathroom_kitchen_tiles_in_good_condition</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="">boolean</internal_type><mandatory>true</mandatory><max_length>40</max_length><name>x_1777187_rental_0_inspection_details</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-07 08:39:51</sys_created_on><sys_id>bfba019683eeea10216cf7a6feaad33d</sys_id><sys_name>Bathroom &amp; kitchen tiles in good condition</sys_name><sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package><sys_policy/><sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope><sys_update_name>sys_dictionary_x_1777187_rental_0_inspection_details_bathroom_kitchen_tiles_in_good_condition</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-07 09:40:08</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>2134823066</payload_hash>
+        <record_name>Inspection Details.Bathroom &amp; kitchen tiles in good condition</record_name>
+        <reverted_from/>
+        <source>8295d49e83aaea10216cf7a6feaad38c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-07 09:40:08</sys_created_on>
+        <sys_id>7e88d91a83222e10216cf7a6feaad335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197e441d3f70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-07 09:40:08</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>3688d91a1f222e1055428f0a9edc4b35</update_guid>
+        <update_guid_history>3688d91a1f222e1055428f0a9edc4b35:2134823066,e52d095a27eeea106458637af31abebc:782769833,7cca8196c1eeea10422760e5dc20744b:752100609,4cca0196cceeea10108d6423baf4c07d:96923812</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-11 09:54:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>5731a42f6b9a4d1c8415e7868e887d71</sys_id>
+        <sys_metadata>bfba019683eeea10216cf7a6feaad33d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bathroom &amp; kitchen tiles in good condition</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package>
+        <sys_parent display_value="Inspection Details">4907d41283eaea10216cf7a6feaad31b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope>
+        <sys_scope_delete display_value="">577d4c8a5c474208bff2e399f7211544</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1777187_rental_0_inspection_details_bathroom_kitchen_tiles_in_good_condition</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1777187_rental_0_inspection_details_bathroom_kitchen_tiles_in_good_condition">7e88d91a83222e10216cf7a6feaad335</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-11 09:54:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

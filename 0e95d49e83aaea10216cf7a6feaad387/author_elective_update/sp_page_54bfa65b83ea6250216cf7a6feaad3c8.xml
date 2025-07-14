@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <human_readable_url_structure/>
+        <id>unassigned_task</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>true</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 18:35:55</sys_created_on>
+        <sys_id>54bfa65b83ea6250216cf7a6feaad3c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>unassigned_task</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope>
+        <sys_update_name>sp_page_54bfa65b83ea6250216cf7a6feaad3c8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 18:35:55</sys_updated_on>
+        <title>Unassigned Task for Inspection Team</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=54bfa65b83ea6250216cf7a6feaad3c8"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</application>
+        <file_path/>
+        <instance_id>b0f3844eeb702e5056eafddacad0cd6a</instance_id>
+        <instance_name>dev324208</instance_name>
+        <name>sp_page_54bfa65b83ea6250216cf7a6feaad3c8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>custom</category><css/><draft>false</draft><dynamic_title_structure/><human_readable_url_structure/><id>unassigned_task</id><internal>false</internal><omit_watcher>false</omit_watcher><public>true</public><roles/><seo_script/><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-10 18:35:55</sys_created_on><sys_id>54bfa65b83ea6250216cf7a6feaad3c8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>unassigned_task</sys_name><sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package><sys_policy/><sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope><sys_update_name>sp_page_54bfa65b83ea6250216cf7a6feaad3c8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-10 18:35:55</sys_updated_on><title>Unassigned Task for Inspection Team</title><use_seo_script>false</use_seo_script></sp_page><sys_translated_text action="delete_multiple" query="documentkey=54bfa65b83ea6250216cf7a6feaad3c8"/></record_update>]]></payload>
+        <payload_hash>27835582</payload_hash>
+        <record_name>unassigned_task</record_name>
+        <reverted_from/>
+        <source>e139d0cf836aee10216cf7a6feaad362</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 18:35:55</sys_created_on>
+        <sys_id>58ffae1b83ea6250216cf7a6feaad3c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197f59f6bc40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 18:35:55</sys_updated_on>
+        <type>Page</type>
+        <update_guid>5cffae1bf4ea62505fed79904719a7c6</update_guid>
+        <update_guid_history>5cffae1bf4ea62505fed79904719a7c6:27835582</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="unassigned_task">f2503e5b83ea6250216cf7a6feaad32a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-10 18:37:43</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>8484fa1bd51c43608bb2c7b87b8fa810</sys_id>
+        <sys_metadata>54bfa65b83ea6250216cf7a6feaad3c8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>unassigned_task</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope>
+        <sys_scope_delete display_value="">577d4c8a5c474208bff2e399f7211544</sys_scope_delete>
+        <sys_update_name>sp_page_54bfa65b83ea6250216cf7a6feaad3c8</sys_update_name>
+        <sys_update_version display_value="sp_page_54bfa65b83ea6250216cf7a6feaad3c8">58ffae1b83ea6250216cf7a6feaad3c7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-10 18:37:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
