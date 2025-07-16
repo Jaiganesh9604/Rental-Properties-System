@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">1fe8e2f4833a6a50216cf7a6feaad311</sp_column>
+        <sp_widget display_value="Rental form">a347ae34833a6a50216cf7a6feaad3d0</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-15 09:58:09</sys_created_on>
+        <sys_id>b069eeb4833a6a50216cf7a6feaad3d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope>
+        <sys_update_name>sp_instance_b069eeb4833a6a50216cf7a6feaad3d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-15 09:58:09</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=b069eeb4833a6a50216cf7a6feaad3d7"/>
+</record_update>

@@ -209,7 +209,7 @@
           "name": "To cancel the request",
           "condition": {
             "mode": "glide_query",
-            "value": "number={{vaInputs.request_id}}^state=under_inspection"
+            "value": "number={{vaInputs.request_id}}^state=under_inspection^ORstate=send_back"
           },
           "applicability": {
             "value": "",
@@ -339,7 +339,8 @@
           "mode": "variable",
           "tableName": "x_1777187_rental_0_agent_property_details",
           "fields": [
-            "state"
+            "state",
+            "number"
           ],
           "cardDefinition": {
             "name": "Record",
@@ -651,14 +652,14 @@
         <sys_created_on>2025-07-13 15:27:35</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>3a912d18833aa650216cf7a6feaad3f0</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>rental_property_system</sys_name>
         <sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package>
         <sys_policy/>
         <sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope>
         <sys_update_name>sys_cb_topic_3a912d18833aa650216cf7a6feaad3f0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-14 05:29:52</sys_updated_on>
+        <sys_updated_on>2025-07-15 09:34:19</sys_updated_on>
         <title>Rental Property System</title>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>

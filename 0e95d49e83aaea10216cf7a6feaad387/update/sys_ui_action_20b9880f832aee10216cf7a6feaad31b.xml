@@ -2,20 +2,28 @@
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name/>
         <active>true</active>
-        <client>false</client>
+        <client>true</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
-
+	var comments = g_form.getValue('comments');
+   
+    if (!comments.trim()) {
+        g_form.showFieldMsg('comments', 'Comments are mandatory when sending back.', 'error');
+        return false;
+    }
+ 
+    g_form.setValue('state', 'cancelled');
+    g_form.submit();
 }]]></client_script_v2>
         <comments/>
         <condition>current.state == 'requested'</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
-        <form_button_v2>false</form_button_v2>
+        <form_button_v2>true</form_button_v2>
         <form_context_menu>false</form_context_menu>
         <form_link>false</form_link>
         <form_menu_button_v2>false</form_menu_button_v2>
-        <form_style/>
-        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <form_style>unstyled</form_style>
+        <format_for_configurable_workspace>true</format_for_configurable_workspace>
         <hint/>
         <isolate_script>false</isolate_script>
         <list_action>false</list_action>
@@ -28,25 +36,19 @@
         <list_style/>
         <messages/>
         <name>Send Back </name>
-        <onclick/>
+        <onclick>onClick()</onclick>
         <order>100</order>
-        <script><![CDATA[(function(){
-current.state = 'cancelled';
-var comments = false;
-if(current.comments.getJournalEntry(1) != undefined) {
-    var lastComment = current.comments.getJournalEntry(1);
-    var index = (current.comments.getJournalEntry(1)+'').indexOf(gs.getUserDisplayName());
-    if (index > -1 && index <= 22)
-        comments = true;
-}
-if(! (current.comments) || comments){
-    current.update();
-    //new ApprovalUserFeedback().rejected(current);
-}else{
-    gs.addErrorMessage(gs.getMessage("Comments are required when send back an approval"));
-    current.state = 'requested';
-    current.setAbortAction(true);
-}})();]]></script>
+        <script><![CDATA[function onClick() {
+    var comments = g_form.getValue('comments');
+   
+    if (!comments.trim()) {
+        g_form.showFieldMsg('comments', 'Comments are mandatory when sending back.', 'error');
+        return false;
+    }
+ 
+    g_form.setValue('state', 'cancelled');
+    g_form.submit();
+}]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -57,7 +59,7 @@ if(! (current.comments) || comments){
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>20b9880f832aee10216cf7a6feaad31b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Send Back </sys_name>
         <sys_overrides/>
         <sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package>
@@ -65,7 +67,7 @@ if(! (current.comments) || comments){
         <sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope>
         <sys_update_name>sys_ui_action_20b9880f832aee10216cf7a6feaad31b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 12:07:48</sys_updated_on>
+        <sys_updated_on>2025-07-14 12:06:53</sys_updated_on>
         <table>sysapproval_approver</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

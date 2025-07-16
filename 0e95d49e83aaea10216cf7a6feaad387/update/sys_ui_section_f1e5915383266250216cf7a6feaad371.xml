@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Appliances" section_id="f1e5915383266250216cf7a6feaad371" sys_domain="global" table="x_1777187_rental_0_agent_property_details" version="3" view="workspace-rental-properties-system-0">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>ac</element>
+            <element>a_c</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-10 12:02:31</sys_created_on>
-            <sys_id>3de5915383266250216cf7a6feaad373</sys_id>
+            <sys_created_on>2025-07-15 12:29:00</sys_created_on>
+            <sys_id>1aeb03b483fa6a50216cf7a6feaad37c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Appliances" display_value="Appliances" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="eed55d13d4266250c53edfb532ce90ba">f1e5915383266250216cf7a6feaad371</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-10 12:02:31</sys_updated_on>
+            <sys_updated_on>2025-07-15 12:29:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>trash_compactor</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-10 12:02:31</sys_created_on>
-            <sys_id>35e5915383266250216cf7a6feaad376</sys_id>
+            <sys_created_on>2025-07-15 12:29:00</sys_created_on>
+            <sys_id>12eb03b483fa6a50216cf7a6feaad37d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Appliances" display_value="Appliances" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="eed55d13d4266250c53edfb532ce90ba">f1e5915383266250216cf7a6feaad371</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-10 12:02:31</sys_updated_on>
+            <sys_updated_on>2025-07-15 12:29:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>washer</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-10 12:02:31</sys_created_on>
-            <sys_id>35e5915383266250216cf7a6feaad374</sys_id>
+            <sys_created_on>2025-07-15 12:29:00</sys_created_on>
+            <sys_id>1aeb03b483fa6a50216cf7a6feaad37d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Appliances" display_value="Appliances" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="eed55d13d4266250c53edfb532ce90ba">f1e5915383266250216cf7a6feaad371</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-10 12:02:31</sys_updated_on>
+            <sys_updated_on>2025-07-15 12:29:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>alarm</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-10 12:02:31</sys_created_on>
-            <sys_id>3de5915383266250216cf7a6feaad376</sys_id>
+            <sys_created_on>2025-07-15 12:29:00</sys_created_on>
+            <sys_id>12eb03b483fa6a50216cf7a6feaad37e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Appliances" display_value="Appliances" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="eed55d13d4266250c53edfb532ce90ba">f1e5915383266250216cf7a6feaad371</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-10 12:02:31</sys_updated_on>
+            <sys_updated_on>2025-07-15 12:29:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>dishwasher</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-10 12:02:31</sys_created_on>
-            <sys_id>3de5915383266250216cf7a6feaad374</sys_id>
+            <sys_created_on>2025-07-15 12:29:00</sys_created_on>
+            <sys_id>1aeb03b483fa6a50216cf7a6feaad37e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Appliances" display_value="Appliances" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="eed55d13d4266250c53edfb532ce90ba">f1e5915383266250216cf7a6feaad371</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-10 12:02:31</sys_updated_on>
+            <sys_updated_on>2025-07-15 12:29:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>.split</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-10 12:02:31</sys_created_on>
-            <sys_id>35e5915383266250216cf7a6feaad377</sys_id>
+            <sys_created_on>2025-07-15 12:29:00</sys_created_on>
+            <sys_id>12eb03b483fa6a50216cf7a6feaad37f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Appliances" display_value="Appliances" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="eed55d13d4266250c53edfb532ce90ba">f1e5915383266250216cf7a6feaad371</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-10 12:02:31</sys_updated_on>
+            <sys_updated_on>2025-07-15 12:29:00</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>stove_gas_electric</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-10 12:02:31</sys_created_on>
-            <sys_id>35e5915383266250216cf7a6feaad375</sys_id>
+            <sys_created_on>2025-07-15 12:29:00</sys_created_on>
+            <sys_id>1aeb03b483fa6a50216cf7a6feaad37f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Appliances" display_value="Appliances" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="eed55d13d4266250c53edfb532ce90ba">f1e5915383266250216cf7a6feaad371</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-10 12:02:31</sys_updated_on>
+            <sys_updated_on>2025-07-15 12:29:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>oven_gas_electric</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-10 12:02:31</sys_created_on>
-            <sys_id>3de5915383266250216cf7a6feaad377</sys_id>
+            <sys_created_on>2025-07-15 12:29:00</sys_created_on>
+            <sys_id>12eb03b483fa6a50216cf7a6feaad380</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Appliances" display_value="Appliances" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="eed55d13d4266250c53edfb532ce90ba">f1e5915383266250216cf7a6feaad371</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-10 12:02:31</sys_updated_on>
+            <sys_updated_on>2025-07-15 12:29:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>microwave</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-10 12:02:31</sys_created_on>
-            <sys_id>3de5915383266250216cf7a6feaad375</sys_id>
+            <sys_created_on>2025-07-15 12:29:00</sys_created_on>
+            <sys_id>1aeb03b483fa6a50216cf7a6feaad380</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Appliances" display_value="Appliances" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="eed55d13d4266250c53edfb532ce90ba">f1e5915383266250216cf7a6feaad371</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-10 12:02:31</sys_updated_on>
+            <sys_updated_on>2025-07-15 12:29:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -130,13 +130,13 @@
             <element>dryer</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-10 12:02:31</sys_created_on>
-            <sys_id>35e5915383266250216cf7a6feaad378</sys_id>
+            <sys_created_on>2025-07-15 12:29:00</sys_created_on>
+            <sys_id>12eb03b483fa6a50216cf7a6feaad381</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Appliances" display_value="Appliances" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="eed55d13d4266250c53edfb532ce90ba">f1e5915383266250216cf7a6feaad371</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-10 12:02:31</sys_updated_on>
+            <sys_updated_on>2025-07-15 12:29:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -144,13 +144,13 @@
             <element>others_appliances</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-10 12:02:31</sys_created_on>
-            <sys_id>35e5915383266250216cf7a6feaad373</sys_id>
+            <sys_created_on>2025-07-15 12:29:00</sys_created_on>
+            <sys_id>1aeb03b483fa6a50216cf7a6feaad381</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Appliances" display_value="Appliances" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="eed55d13d4266250c53edfb532ce90ba">f1e5915383266250216cf7a6feaad371</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-10 12:02:31</sys_updated_on>
+            <sys_updated_on>2025-07-15 12:29:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

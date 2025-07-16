@@ -98,6 +98,20 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-07-10 12:02:31</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-15 10:47:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0a94baf4837a6a50216cf7a6feaad3c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1777187_rental_0_agent_property_details" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="eed55d13d4266250c53edfb532ce90ba">6de5115383266250216cf7a6feaad37a</sys_ui_form>
+            <sys_ui_section caption="Activity Stream" display_value="Activity Stream" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="eed55d13d4266250c53edfb532ce90ba">0694baf4837a6a50216cf7a6feaad3c2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-15 10:47:07</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1777187_rental_0_agent_property_details</name>
             <roles/>

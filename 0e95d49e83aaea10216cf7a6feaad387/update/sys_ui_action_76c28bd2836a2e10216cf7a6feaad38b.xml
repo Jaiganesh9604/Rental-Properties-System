@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition/>
+        <condition>current.assigned_to==''</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -46,7 +46,7 @@ current.update();]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>76c28bd2836a2e10216cf7a6feaad38b</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>45</sys_mod_count>
         <sys_name>Acceptance of Inspection </sys_name>
         <sys_overrides/>
         <sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package>
@@ -54,7 +54,7 @@ current.update();]]></script>
         <sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope>
         <sys_update_name>sys_ui_action_76c28bd2836a2e10216cf7a6feaad38b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-10 07:42:31</sys_updated_on>
+        <sys_updated_on>2025-07-15 06:28:49</sys_updated_on>
         <table>x_1777187_rental_0_inspection_details</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

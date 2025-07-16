@@ -4,125 +4,153 @@
             <element>gated</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-10 12:02:31</sys_created_on>
-            <sys_id>b9e5915383266250216cf7a6feaad397</sys_id>
+            <sys_created_on>2025-07-15 12:29:00</sys_created_on>
+            <sys_id>92eb03b483fa6a50216cf7a6feaad3ca</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Outside Features" display_value="Outside Features" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="eed55d13d4266250c53edfb532ce90ba">f1e5915383266250216cf7a6feaad379</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-10 12:02:31</sys_updated_on>
+            <sys_updated_on>2025-07-15 12:29:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>clubhouse</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-15 12:29:00</sys_created_on>
+            <sys_id>9aeb03b483fa6a50216cf7a6feaad3ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Features" display_value="Outside Features" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="eed55d13d4266250c53edfb532ce90ba">f1e5915383266250216cf7a6feaad379</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-15 12:29:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>trash_day</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-10 12:02:31</sys_created_on>
-            <sys_id>3de5915383266250216cf7a6feaad37b</sys_id>
+            <sys_created_on>2025-07-15 12:29:00</sys_created_on>
+            <sys_id>92eb03b483fa6a50216cf7a6feaad3cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Outside Features" display_value="Outside Features" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="eed55d13d4266250c53edfb532ce90ba">f1e5915383266250216cf7a6feaad379</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-10 12:02:31</sys_updated_on>
+            <sys_updated_on>2025-07-15 12:29:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>pool</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-10 12:02:31</sys_created_on>
-            <sys_id>b1e5915383266250216cf7a6feaad397</sys_id>
+            <sys_created_on>2025-07-15 12:29:00</sys_created_on>
+            <sys_id>9aeb03b483fa6a50216cf7a6feaad3cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Outside Features" display_value="Outside Features" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="eed55d13d4266250c53edfb532ce90ba">f1e5915383266250216cf7a6feaad379</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-10 12:02:31</sys_updated_on>
+            <sys_updated_on>2025-07-15 12:29:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>parking</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-10 12:02:31</sys_created_on>
-            <sys_id>35e5915383266250216cf7a6feaad37b</sys_id>
+            <sys_created_on>2025-07-15 12:29:00</sys_created_on>
+            <sys_id>92eb03b483fa6a50216cf7a6feaad3cc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Outside Features" display_value="Outside Features" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="eed55d13d4266250c53edfb532ce90ba">f1e5915383266250216cf7a6feaad379</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-10 12:02:31</sys_updated_on>
+            <sys_updated_on>2025-07-15 12:29:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-10 12:02:31</sys_created_on>
-            <sys_id>b9e5915383266250216cf7a6feaad396</sys_id>
+            <sys_created_on>2025-07-15 12:29:00</sys_created_on>
+            <sys_id>9aeb03b483fa6a50216cf7a6feaad3cc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Outside Features" display_value="Outside Features" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="eed55d13d4266250c53edfb532ce90ba">f1e5915383266250216cf7a6feaad379</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-10 12:02:31</sys_updated_on>
+            <sys_updated_on>2025-07-15 12:29:00</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sprinklers</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-10 12:02:31</sys_created_on>
-            <sys_id>3de5915383266250216cf7a6feaad37c</sys_id>
+            <sys_created_on>2025-07-15 12:29:00</sys_created_on>
+            <sys_id>92eb03b483fa6a50216cf7a6feaad3cd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Outside Features" display_value="Outside Features" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="eed55d13d4266250c53edfb532ce90ba">f1e5915383266250216cf7a6feaad379</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-10 12:02:31</sys_updated_on>
+            <sys_updated_on>2025-07-15 12:29:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>volleyball</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-15 12:29:00</sys_created_on>
+            <sys_id>9aeb03b483fa6a50216cf7a6feaad3cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Features" display_value="Outside Features" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="eed55d13d4266250c53edfb532ce90ba">f1e5915383266250216cf7a6feaad379</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-15 12:29:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>gardener</element>
-            <position>6</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-10 12:02:31</sys_created_on>
-            <sys_id>35e5915383266250216cf7a6feaad37d</sys_id>
+            <sys_created_on>2025-07-15 12:29:00</sys_created_on>
+            <sys_id>92eb03b483fa6a50216cf7a6feaad3ce</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Outside Features" display_value="Outside Features" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="eed55d13d4266250c53edfb532ce90ba">f1e5915383266250216cf7a6feaad379</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-10 12:02:31</sys_updated_on>
+            <sys_updated_on>2025-07-15 12:29:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>insect_pest_control</element>
-            <position>7</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-10 12:02:31</sys_created_on>
-            <sys_id>35e5915383266250216cf7a6feaad37c</sys_id>
+            <sys_created_on>2025-07-15 12:29:00</sys_created_on>
+            <sys_id>9aeb03b483fa6a50216cf7a6feaad3ce</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Outside Features" display_value="Outside Features" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="eed55d13d4266250c53edfb532ce90ba">f1e5915383266250216cf7a6feaad379</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-10 12:02:31</sys_updated_on>
+            <sys_updated_on>2025-07-15 12:29:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>others_outside_features</element>
-            <position>8</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-10 12:02:31</sys_created_on>
-            <sys_id>b1e5915383266250216cf7a6feaad398</sys_id>
+            <sys_created_on>2025-07-15 12:29:00</sys_created_on>
+            <sys_id>92eb03b483fa6a50216cf7a6feaad3cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Outside Features" display_value="Outside Features" name="x_1777187_rental_0_agent_property_details" sys_domain="global" view="eed55d13d4266250c53edfb532ce90ba">f1e5915383266250216cf7a6feaad379</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-10 12:02:31</sys_updated_on>
+            <sys_updated_on>2025-07-15 12:29:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>false</active>
+        <api_name>x_1777187_rental_0.GetCustomerDetails</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>GetCustomerDetails</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var GetCustomerDetails = Class.create();
+GetCustomerDetails.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+ 
+    getDetails: function() {
+        var customerId = this.getParameter('sysparm_customer_id');
+        var result = {};
+        if (!customerId) return JSON.stringify(result);
+ 
+        var gr = new GlideRecord('x_1777185_home_s_0_customer_details');
+        gr.addQuery('sys_id', customerId);  
+        gr.orderByDesc('sys_created_on');
+        gr.query();
+ 
+        if (gr.next()) {
+            result.email = gr.email+'';
+            result.contact_number = gr.mobile_number+'';
+            result.street_line_1 = gr.street_line_1+'';
+            result.street_line_2 = gr.street_line_2+'';
+            result.street_line_3 = gr.street_line_3+'';
+            result.city = gr.city+'';
+            result.district = gr.district+'';
+            result.state = gr.state+'';
+            result.pin_code = gr.pin_code+'';  
+        }
+ 
+        return JSON.stringify(result);
+    },
+    type:'GetCustomerDetails'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-14 05:43:56</sys_created_on>
+        <sys_id>1875a8e4833ae650216cf7a6feaad387</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>GetCustomerDetails</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope>
+        <sys_update_name>sys_script_include_1875a8e4833ae650216cf7a6feaad387</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-14 06:20:28</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</application>
+        <file_path/>
+        <instance_id>b0f3844eeb702e5056eafddacad0cd6a</instance_id>
+        <instance_name>dev324208</instance_name>
+        <name>sys_script_include_1875a8e4833ae650216cf7a6feaad387</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;false&lt;/active&gt;&lt;api_name&gt;x_1777187_rental_0.GetCustomerDetails&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;GetCustomerDetails&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var GetCustomerDetails = Class.create();
+GetCustomerDetails.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+ 
+    getDetails: function() {
+        var customerId = this.getParameter('sysparm_customer_id');
+        var result = {};
+        if (!customerId) return JSON.stringify(result);
+ 
+        var gr = new GlideRecord('x_1777185_home_s_0_customer_details');
+        gr.addQuery('sys_id', customerId);  
+        gr.orderByDesc('sys_created_on');
+        gr.query();
+ 
+        if (gr.next()) {
+            result.email = gr.email+'';
+            result.contact_number = gr.mobile_number+'';
+            result.street_line_1 = gr.street_line_1+'';
+            result.street_line_2 = gr.street_line_2+'';
+            result.street_line_3 = gr.street_line_3+'';
+            result.city = gr.city+'';
+            result.district = gr.district+'';
+            result.state = gr.state+'';
+            result.pin_code = gr.pin_code+'';  
+        }
+ 
+        return JSON.stringify(result);
+    },
+    type:'GetCustomerDetails'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-07-14 05:43:56&lt;/sys_created_on&gt;&lt;sys_id&gt;1875a8e4833ae650216cf7a6feaad387&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;GetCustomerDetails&lt;/sys_name&gt;&lt;sys_package display_value="Rental Properties System" source="x_1777187_rental_0"&gt;0e95d49e83aaea10216cf7a6feaad387&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Rental Properties System"&gt;0e95d49e83aaea10216cf7a6feaad387&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_1875a8e4833ae650216cf7a6feaad387&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-07-14 06:20:28&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1593073428</payload_hash>
+        <record_name>GetCustomerDetails</record_name>
+        <reverted_from/>
+        <source>e139d0cf836aee10216cf7a6feaad362</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-14 06:20:28</sys_created_on>
+        <sys_id>56fda0a0837ae650216cf7a6feaad3e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198079789540000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-14 06:20:28</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>1efda0a02f7ae6503e6b0d93edf384e7</update_guid>
+        <update_guid_history>1efda0a02f7ae6503e6b0d93edf384e7:-1593073428,9795a8e4f53ae650a8d71243cea5f8b0:-2052555456</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-14 12:48:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>9f1ecb64ad9b4286b298e54b854b7464</sys_id>
+        <sys_metadata>1875a8e4833ae650216cf7a6feaad387</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GetCustomerDetails</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope>
+        <sys_scope_delete display_value="">577d4c8a5c474208bff2e399f7211544</sys_scope_delete>
+        <sys_update_name>sys_script_include_1875a8e4833ae650216cf7a6feaad387</sys_update_name>
+        <sys_update_version display_value="sys_script_include_1875a8e4833ae650216cf7a6feaad387">56fda0a0837ae650216cf7a6feaad3e8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-14 12:48:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

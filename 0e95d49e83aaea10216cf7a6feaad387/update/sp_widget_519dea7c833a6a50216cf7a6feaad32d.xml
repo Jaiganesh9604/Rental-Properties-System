@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.rental-widget {&#13;
+&#13;
+  width: 300px;&#13;
+&#13;
+  margin: 20px auto;&#13;
+&#13;
+}&#13;
+ &#13;
+.rental-link {&#13;
+&#13;
+  display: block;&#13;
+&#13;
+  text-decoration: none;&#13;
+&#13;
+  background-color: #ffffff;&#13;
+&#13;
+  border: 1px solid #ddd;&#13;
+&#13;
+  border-radius: 12px;&#13;
+&#13;
+  padding: 20px;&#13;
+&#13;
+  text-align: center;&#13;
+&#13;
+  transition: box-shadow 0.3s, transform 0.3s;&#13;
+&#13;
+  color: #333;&#13;
+&#13;
+}&#13;
+ &#13;
+.rental-link:hover {&#13;
+&#13;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);&#13;
+&#13;
+  transform: translateY(-5px);&#13;
+&#13;
+}&#13;
+ &#13;
+.rental-icon {&#13;
+&#13;
+  font-size: 50px;&#13;
+&#13;
+  margin-bottom: 15px;&#13;
+&#13;
+  background: linear-gradient(135deg, #4a90e2, #50e3c2, #b8e986);&#13;
+&#13;
+  -webkit-background-clip: text;&#13;
+&#13;
+  -webkit-text-fill-color: transparent;&#13;
+&#13;
+}&#13;
+ &#13;
+.rental-title {&#13;
+&#13;
+  font-size: 20px;&#13;
+&#13;
+  margin: 10px 0 5px 0;&#13;
+&#13;
+}&#13;
+ &#13;
+.rental-desc {&#13;
+&#13;
+  font-size: 14px;&#13;
+&#13;
+  color: #666;&#13;
+&#13;
+  margin: 0;&#13;
+&#13;
+}&#13;
+&#13;
+ </css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>raise_a_request_widget</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Raise a request widget</name>
+        <option_schema/>
+        <public>false</public>
+        <roles>x_1777187_rental_0.agent</roles>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-15 10:19:38</sys_created_on>
+        <sys_id>519dea7c833a6a50216cf7a6feaad32d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Raise a request widget</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope>
+        <sys_update_name>sp_widget_519dea7c833a6a50216cf7a6feaad32d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-15 10:22:21</sys_updated_on>
+        <template><![CDATA[<!-- Include Font Awesome -->
+<link
+
+  rel="stylesheet"
+
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+
+/>
+ 
+<div class="rental-widget">
+<a
+
+    href="https://dev324208.service-now.com/rps?id=form&table=x_1777187_rental_0_agent_property_details&sys_id=-1"
+
+    class="rental-link"
+
+    target="_blank"
+>
+<div class="rental-icon">
+<i class="fas fa-house"></i>
+</div>
+<h3 class="rental-title">Raise New Request</h3>
+<p class="rental-desc">
+
+      Submit a new rental property request easily from here.
+</p>
+</a>
+</div>
+
+ ]]></template>
+    </sp_widget>
+</record_update>

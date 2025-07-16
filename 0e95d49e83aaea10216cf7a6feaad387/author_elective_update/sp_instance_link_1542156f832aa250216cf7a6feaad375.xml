@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>file-o</glyph>
+        <id/>
+        <kb_article display_value="KB0010002 v2.0">e0015d2f832aa250216cf7a6feaad391</kb_article>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">02e9de9b836a6250216cf7a6feaad3f1</sp_column>
+        <sp_page display_value="kb_article">dea5792147132100ba13a5554ee4902d</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-11 06:25:08</sys_created_on>
+        <sys_id>1542156f832aa250216cf7a6feaad375</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Knowledge Base for Rental property</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope>
+        <sys_update_name>sp_instance_link_1542156f832aa250216cf7a6feaad375</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-11 06:30:41</sys_updated_on>
+        <title>Knowledge Base for Rental property</title>
+        <type>kb_article</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": "-- None --"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=1542156f832aa250216cf7a6feaad375"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</application>
+        <file_path/>
+        <instance_id>b0f3844eeb702e5056eafddacad0cd6a</instance_id>
+        <instance_name>dev324208</instance_name>
+        <name>sp_instance_link_1542156f832aa250216cf7a6feaad375</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;file-o&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article display_value="KB0010002 v2.0"&gt;e0015d2f832aa250216cf7a6feaad391&lt;/kb_article&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;02e9de9b836a6250216cf7a6feaad3f1&lt;/sp_column&gt;&lt;sp_page display_value="kb_article"&gt;dea5792147132100ba13a5554ee4902d&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-07-11 06:25:08&lt;/sys_created_on&gt;&lt;sys_id&gt;1542156f832aa250216cf7a6feaad375&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Knowledge Base for Rental property&lt;/sys_name&gt;&lt;sys_package display_value="Rental Properties System" source="x_1777187_rental_0"&gt;0e95d49e83aaea10216cf7a6feaad387&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Rental Properties System"&gt;0e95d49e83aaea10216cf7a6feaad387&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_1542156f832aa250216cf7a6feaad375&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-07-11 06:30:41&lt;/sys_updated_on&gt;&lt;title&gt;Knowledge Base for Rental property&lt;/title&gt;&lt;type&gt;kb_article&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": "-- None --"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=1542156f832aa250216cf7a6feaad375"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1925517827</payload_hash>
+        <record_name>Knowledge Base for Rental property</record_name>
+        <reverted_from/>
+        <source>e139d0cf836aee10216cf7a6feaad362</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-11 06:30:41</sys_created_on>
+        <sys_id>6683d523836aa250216cf7a6feaad316</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197f82dd01f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-11 06:30:41</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>2283d1ef082aa250f5380541ea89c805</update_guid>
+        <update_guid_history>2283d1ef082aa250f5380541ea89c805:1925517827,7d7391ef9e2aa250346660e4a75be3f2:-1784438747,ef43d9af312aa2502254098b8bfc812c:-525225765,73031defb22aa250f06fdc455f9a8675:-2042513189,07f291efef2aa25057726fed77ff45bf:1066766495,1d42d9af712aa2501e2ac6af9f34441a:-10503617</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Knowledge Base for Rental property">563a82bc83766a50216cf7a6feaad3e8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-15 07:42:00</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>38826ff54fc44a20a50f9f8b7adf85c4</sys_id>
+        <sys_metadata>1542156f832aa250216cf7a6feaad375</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Knowledge Base for Rental property</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope>
+        <sys_scope_delete display_value="">577d4c8a5c474208bff2e399f7211544</sys_scope_delete>
+        <sys_update_name>sp_instance_link_1542156f832aa250216cf7a6feaad375</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_1542156f832aa250216cf7a6feaad375">6683d523836aa250216cf7a6feaad316</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-15 07:42:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

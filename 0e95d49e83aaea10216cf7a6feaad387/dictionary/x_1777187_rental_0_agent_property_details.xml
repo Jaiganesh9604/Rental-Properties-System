@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="cac6101283eaea10216cf7a6feaad358" label="Agent Property Details" max_length="40" name="x_1777187_rental_0_agent_property_details" text_index="true" type="collection">
+    <element audit="true" db_object_id="cac6101283eaea10216cf7a6feaad358" label="Agent Property Details" max_length="40" name="x_1777187_rental_0_agent_property_details" text_index="true" type="collection">
         <element label="How many rooms are there?" mandatory="true" max_length="40" name="how_many_rooms_are_there" type="integer"/>
         <element label="Management Company Contract Expiration" max_length="40" name="management_company_contract_expiration" type="glide_date"/>
         <element label="Deposit Amount" max_length="40" name="deposit_amount" type="string"/>

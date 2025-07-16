@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <semantic_tag/>
+        <sp_column/>
+        <sp_container display_value="Copy of Home Page (1) - Container 6">a63eca1f832a6250216cf7a6feaad3e0</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-13 06:48:32</sys_created_on>
+        <sys_id>afca230c83be6650216cf7a6feaad3f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope>
+        <sys_update_name>sp_row_afca230c83be6650216cf7a6feaad3f1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-13 06:48:32</sys_updated_on>
+    </sp_row>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</application>
+        <file_path/>
+        <instance_id>b0f3844eeb702e5056eafddacad0cd6a</instance_id>
+        <instance_name>dev324208</instance_name>
+        <name>sp_row_afca230c83be6650216cf7a6feaad3f1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>1</order><semantic_tag/><sp_column/><sp_container display_value="Copy of Home Page (1) - Container 6">a63eca1f832a6250216cf7a6feaad3e0</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-13 06:48:32</sys_created_on><sys_id>afca230c83be6650216cf7a6feaad3f1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package><sys_policy/><sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope><sys_update_name>sp_row_afca230c83be6650216cf7a6feaad3f1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-13 06:48:32</sys_updated_on></sp_row></record_update>]]></payload>
+        <payload_hash>1342985882</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>e139d0cf836aee10216cf7a6feaad362</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-13 06:48:32</sys_created_on>
+        <sys_id>ebca230c83be6650216cf7a6feaad3f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198028adf470000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-13 06:48:32</sys_updated_on>
+        <type>Row</type>
+        <update_guid>efca230c27be665048bc580a57329cf3</update_guid>
+        <update_guid_history>efca230c27be665048bc580a57329cf3:1342985882</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">b96a4abc83766a50216cf7a6feaad35e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-15 07:42:47</sys_created_on>
+        <sys_db_object display_value="" name="sp_row">sp_row</sys_db_object>
+        <sys_id>45fefafc90cf43fcacf8d905aec552e4</sys_id>
+        <sys_metadata>afca230c83be6650216cf7a6feaad3f1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Rental Properties System" source="x_1777187_rental_0">0e95d49e83aaea10216cf7a6feaad387</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Rental Properties System">0e95d49e83aaea10216cf7a6feaad387</sys_scope>
+        <sys_scope_delete display_value="">577d4c8a5c474208bff2e399f7211544</sys_scope_delete>
+        <sys_update_name>sp_row_afca230c83be6650216cf7a6feaad3f1</sys_update_name>
+        <sys_update_version display_value="sp_row_afca230c83be6650216cf7a6feaad3f1">ebca230c83be6650216cf7a6feaad3f4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-15 07:42:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
